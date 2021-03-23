@@ -1,0 +1,15 @@
+vendor_name = ModelSim
+source_file = 1, H:/EDATools/MyWorkShop/chp3.6/f_adder.v
+source_file = 1, H:/EDATools/MyWorkShop/chp3.6/h_adder.v
+design_name = f_adder
+instance = comp, \cout~output , cout~output, f_adder, 1
+instance = comp, \sum~output , sum~output, f_adder, 1
+instance = comp, \bin~input , bin~input, f_adder, 1
+instance = comp, \ain~input , ain~input, f_adder, 1
+instance = comp, \cin~input , cin~input, f_adder, 1
+instance = comp, \U3~0 , U3~0, f_adder, 1
+instance = comp, \U2|SO~0 , U2|SO~0, f_adder, 1
+design_name = hard_block
+instance = comp, \~ALTERA_ASDO_DATA1~~ibuf , ~ALTERA_ASDO_DATA1~~ibuf, hard_block, 1
+instance = comp, \~ALTERA_FLASH_nCE_nCSO~~ibuf , ~ALTERA_FLASH_nCE_nCSO~~ibuf, hard_block, 1
+instance = comp, \~ALTERA_DATA0~~ibuf , ~ALTERA_DATA0~~ibuf, hard_block, 1

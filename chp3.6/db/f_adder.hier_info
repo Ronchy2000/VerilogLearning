@@ -1,0 +1,26 @@
+|f_adder
+ain => ain.IN1
+bin => bin.IN1
+cin => cin.IN1
+cout <= U3.DB_MAX_OUTPUT_PORT_TYPE
+sum <= h_adder:U2.SO
+
+
+|f_adder|h_adder:U1
+A => CO.IN0
+A => SO.IN0
+B => CO.IN1
+B => SO.IN1
+SO <= SO.DB_MAX_OUTPUT_PORT_TYPE
+CO <= CO.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|f_adder|h_adder:U2
+A => CO.IN0
+A => SO.IN0
+B => CO.IN1
+B => SO.IN1
+SO <= SO.DB_MAX_OUTPUT_PORT_TYPE
+CO <= CO.DB_MAX_OUTPUT_PORT_TYPE
+
+
