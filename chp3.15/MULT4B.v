@@ -1,10 +1,10 @@
 module MULT4B(R,A,B);
-	parameter S=4;
+	parameter S=3;
 	
-	output[2*S:1] R;
-	input[S:1] A,B;
+	output[2*S:0] R;
+	input[S:0] A,B;
 	
-	reg[2*S:1] R;
+	reg[2*S:0] R;
 	integer i; //整型，用于循环计数
 	always @(A or B)
 		begin

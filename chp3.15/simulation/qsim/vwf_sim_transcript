@@ -7,7 +7,7 @@ Note: if both ModelSim-Altera and ModelSim executables are available, ModelSim-A
 
 **** Generating the ModelSim Testbench ****
 
-quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off MULT4B -c MULT4B --vector_source="H:/EDATools/MyWorkShop/chp3.15/MULT4B.vwf" --testbench_file="H:/EDATools/MyWorkShop/chp3.15/simulation/qsim/MULT4B.vwf.vt"
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off MULT4B -c MULT4B --vector_source="H:/EDATools/MyWorkShop/chp3.15/mult4b2.vwf" --testbench_file="H:/EDATools/MyWorkShop/chp3.15/simulation/qsim/mult4b2.vwf.vt"
 
 Info: *******************************************************************
 Info: Running Quartus Prime EDA Netlist Writer
@@ -26,8 +26,8 @@ Info: Running Quartus Prime EDA Netlist Writer
     Info: Intel and sold by Intel or its authorized distributors.  Please
     Info: refer to the applicable agreement for further details, at
     Info: https://fpgasoftware.intel.com/eula.
-    Info: Processing started: Tue Mar 23 07:17:35 2021
-Info: Command: quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off MULT4B -c MULT4B --vector_source=H:/EDATools/MyWorkShop/chp3.15/MULT4B.vwf --testbench_file=H:/EDATools/MyWorkShop/chp3.15/simulation/qsim/MULT4B.vwf.vt
+    Info: Processing started: Tue Mar 23 20:53:20 2021
+Info: Command: quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off MULT4B -c MULT4B --vector_source=H:/EDATools/MyWorkShop/chp3.15/mult4b2.vwf --testbench_file=H:/EDATools/MyWorkShop/chp3.15/simulation/qsim/mult4b2.vwf.vt
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 
 Completed successfully. 
@@ -55,7 +55,7 @@ Info: Running Quartus Prime EDA Netlist Writer
     Info: Intel and sold by Intel or its authorized distributors.  Please
     Info: refer to the applicable agreement for further details, at
     Info: https://fpgasoftware.intel.com/eula.
-    Info: Processing started: Tue Mar 23 07:17:37 2021
+    Info: Processing started: Tue Mar 23 20:53:22 2021
 Info: Command: quartus_eda --write_settings_files=off --simulation=on --functional=off --flatten_buses=off --timescale=1ps --tool=modelsim_oem --format=verilog --output_directory=H:/EDATools/MyWorkShop/chp3.15/simulation/qsim/ MULT4B -c MULT4B
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (204019): Generated file MULT4B_8_1200mv_85c_slow.vo in folder "H:/EDATools/MyWorkShop/chp3.15/simulation/qsim//" for EDA simulation tool
@@ -68,8 +68,8 @@ Info (204019): Generated file MULT4B_min_1200mv_0c_v_fast.sdo in folder "H:/EDAT
 Info (204019): Generated file MULT4B_v.sdo in folder "H:/EDATools/MyWorkShop/chp3.15/simulation/qsim//" for EDA simulation tool
 Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 1 warning
     Info: Peak virtual memory: 4651 megabytes
-    Info: Processing ended: Tue Mar 23 07:17:39 2021
-    Info: Elapsed time: 00:00:02
+    Info: Processing ended: Tue Mar 23 20:53:23 2021
+    Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:01
 
 Completed successfully. 
@@ -86,37 +86,38 @@ h:/edatools/quartuslite19.1/modelsim_ase/win32aloem//vsim -c -do MULT4B.do
 
 Reading H:/EDATools/QuartusLite19.1/modelsim_ase/tcl/vsim/pref.tcl
 
-
 # 10.5b
 
 
 # do MULT4B.do
 
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 07:17:48 on Mar 23,2021
-# vlog -work work MULT4B.vo 
+# ** Warning: (vlib-34) Library already exists at "work".
 
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:53:25 on Mar 23,2021
+# vlog -work work MULT4B.vo 
 # -- Compiling module MULT4B
 # -- Compiling module hard_block
-
 # 
 # Top level modules:
 # 	MULT4B
-# End time: 07:17:49 on Mar 23,2021, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 07:17:49 on Mar 23,2021
-# vlog -work work MULT4B.vwf.vt 
-# -- Compiling module MULT4B_vlg_vec_tst
 
+# End time: 20:53:25 on Mar 23,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:53:25 on Mar 23,2021
+# vlog -work work mult4b2.vwf.vt 
+# -- Compiling module MULT4B_vlg_vec_tst
 # 
 # Top level modules:
 # 	MULT4B_vlg_vec_tst
-# End time: 07:17:49 on Mar 23,2021, Elapsed time: 0:00:00
+
+# End time: 20:53:25 on Mar 23,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 
 # vsim -novopt -c -t 1ps -L cycloneive_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.MULT4B_vlg_vec_tst 
-# Start time: 07:17:50 on Mar 23,2021
+# Start time: 20:53:25 on Mar 23,2021
 # Loading work.MULT4B_vlg_vec_tst
 # Loading work.MULT4B
 # Loading work.hard_block
@@ -128,25 +129,24 @@ Reading H:/EDATools/QuartusLite19.1/modelsim_ase/tcl/vsim/pref.tcl
 # Loading instances from MULT4B_v.sdo
 # Loading timing data from MULT4B_v.sdo
 # ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
-#    Time: 0 ps  Iteration: 0  Instance: /MULT4B_vlg_vec_tst File: MULT4B.vwf.vt
-# after#24
-
-# ** Note: $finish    : MULT4B.vwf.vt(47)
+#    Time: 0 ps  Iteration: 0  Instance: /MULT4B_vlg_vec_tst File: mult4b2.vwf.vt
+# after#26
+# ** Note: $finish    : mult4b2.vwf.vt(47)
 #    Time: 100 us  Iteration: 0  Instance: /MULT4B_vlg_vec_tst
-# End time: 07:17:52 on Mar 23,2021, Elapsed time: 0:00:02
+# End time: 20:53:26 on Mar 23,2021, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 
 Completed successfully. 
 
 **** Converting ModelSim VCD to vector waveform ****
 
-Reading H:/EDATools/MyWorkShop/chp3.15/MULT4B.vwf...
+Reading H:/EDATools/MyWorkShop/chp3.15/mult4b2.vwf...
 
 Reading H:/EDATools/MyWorkShop/chp3.15/simulation/qsim/MULT4B.msim.vcd...
 
 Processing channel transitions... 
 
-Writing the resulting VWF to H:/EDATools/MyWorkShop/chp3.15/simulation/qsim/MULT4B_20210323071752.sim.vwf
+Writing the resulting VWF to H:/EDATools/MyWorkShop/chp3.15/simulation/qsim/MULT4B_20210323205326.sim.vwf
 
 Finished VCD to VWF conversion.
 
