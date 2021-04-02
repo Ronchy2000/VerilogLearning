@@ -1,0 +1,75 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dH:/EDATools/MyWorkShop/chp3.20/simulation/qsim
+vhard_block
+Z1 !s110 1617097985
+!i10b 1
+!s100 PaZd<eFd0D_CKF_QBdJ[X1
+IanZ2D2Mm9o;k>X_EcUV?k1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1617097984
+Z4 8MULT4B_parameter2.vo
+Z5 FMULT4B_parameter2.vo
+L0 3055
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1617097985.000000
+Z8 !s107 MULT4B_parameter2.vo|
+Z9 !s90 -work|work|MULT4B_parameter2.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vMULT4B_parameter2
+R1
+!i10b 1
+!s100 6c^De0FJ8hgE6E`@^2dZN2
+Ie8i4jd5OjfOg[UX51P4>o0
+R2
+R0
+R3
+R4
+R5
+L0 32
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@m@u@l@t4@b_parameter2
+vMULT4B_parameter2_vlg_vec_tst
+R1
+!i10b 1
+!s100 VgfhN_TYK6ef2]9>Yh>k03
+I`?NC7bN3aZJj?_Ib7IzzR1
+R2
+R0
+w1617097983
+8MULT4B_parameter2.vwf.vt
+FMULT4B_parameter2.vwf.vt
+L0 30
+R6
+r1
+!s85 0
+31
+R7
+!s107 MULT4B_parameter2.vwf.vt|
+!s90 -work|work|MULT4B_parameter2.vwf.vt|
+!i113 1
+R10
+R11
+n@m@u@l@t4@b_parameter2_vlg_vec_tst
