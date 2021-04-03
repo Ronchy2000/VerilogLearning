@@ -1,0 +1,11 @@
+module DFF2(CLK,D,Q,RST,EN);
+	output Q;
+	input CLK,D,RST,EN;
+	reg Q;
+	always@(posedge CLK,negedge RST)
+	begin	
+		if(EN) Q<=D;
+		if(EN && !RST) Q<=0;
+		
+		end
+endmodule
