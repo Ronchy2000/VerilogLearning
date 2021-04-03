@@ -1,0 +1,3 @@
+module DFF1(CLK,D,Q,RST);
+	output Q;
+	
