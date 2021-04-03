@@ -1,0 +1,14 @@
+vendor_name = ModelSim
+source_file = 1, H:/EDATools/MyWorkShop/Chapter5/chap5.3/DFF3.v
+source_file = 1, H:/EDATools/MyWorkShop/Chapter5/chap5.3/db/DFF3.cbx.xml
+design_name = DFF3
+instance = comp, \Q~output , Q~output, DFF3, 1
+instance = comp, \CLK~input , CLK~input, DFF3, 1
+instance = comp, \D~input , D~input, DFF3, 1
+instance = comp, \RST~input , RST~input, DFF3, 1
+instance = comp, \Q~0 , Q~0, DFF3, 1
+instance = comp, \Q~reg0 , Q~reg0, DFF3, 1
+design_name = hard_block
+instance = comp, \~ALTERA_ASDO_DATA1~~ibuf , ~ALTERA_ASDO_DATA1~~ibuf, hard_block, 1
+instance = comp, \~ALTERA_FLASH_nCE_nCSO~~ibuf , ~ALTERA_FLASH_nCE_nCSO~~ibuf, hard_block, 1
+instance = comp, \~ALTERA_DATA0~~ibuf , ~ALTERA_DATA0~~ibuf, hard_block, 1
