@@ -1,0 +1,29 @@
+|ADDER8B
+A[0] => _.DATAD
+A[1] => _.DATAD
+A[2] => _.DATAD
+A[3] => _.DATAD
+A[4] => _.DATAD
+A[5] => _.DATAD
+A[6] => _.DATAD
+A[7] => _.DATAD
+B[0] => _.DATAC
+B[1] => _.DATAC
+B[2] => _.DATAC
+B[3] => _.DATAC
+B[4] => _.DATAC
+B[5] => _.DATAC
+B[6] => _.DATAC
+B[7] => _.DATAC
+CIN => _.DATAB
+COUT <= _.SUM_OUT
+DOUT[0] <= _.SUM_OUT
+DOUT[1] <= _.SUM_OUT
+DOUT[2] <= _.SUM_OUT
+DOUT[3] <= _.SUM_OUT
+DOUT[4] <= _.SUM_OUT
+DOUT[5] <= _.SUM_OUT
+DOUT[6] <= _.SUM_OUT
+DOUT[7] <= _.SUM_OUT
+
+
