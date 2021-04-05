@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Mon Apr 05 21:57:44 2021
+Quartus Prime Version : 19.1.0 Build 670 09/22/2019 SJ Lite Edition
+Revision Name : BCD_ADDER
+Top-level Entity Name : BCD_ADDER
+Family : Cyclone IV E
+Total logic elements : 19
+    Total combinational functions : 19
+    Dedicated logic registers : 0
+Total registers : 0
+Total pins : 25
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

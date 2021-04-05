@@ -1,0 +1,75 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dH:/EDATools/MyWorkShop/Chapter3/chp3.14/simulation/qsim
+vBCD_ADDER
+Z1 !s110 1617631223
+!i10b 1
+!s100 jEX44zMAV9PKf=Nm04:II0
+ImmSIQ3CL_:B2GWkXnS2C@2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1617631222
+Z4 8BCD_ADDER.vo
+Z5 FBCD_ADDER.vo
+L0 32
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1617631223.000000
+Z8 !s107 BCD_ADDER.vo|
+Z9 !s90 -work|work|BCD_ADDER.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+n@b@c@d_@a@d@d@e@r
+vBCD_ADDER_vlg_vec_tst
+R1
+!i10b 1
+!s100 GNzmORdFGHe9kT[00KZ^n2
+IInzbNh;kJK00M:dSdQf3h0
+R2
+R0
+w1617631221
+8BCD_ADDER.vwf.vt
+FBCD_ADDER.vwf.vt
+L0 30
+R6
+r1
+!s85 0
+31
+R7
+!s107 BCD_ADDER.vwf.vt|
+!s90 -work|work|BCD_ADDER.vwf.vt|
+!i113 1
+R10
+R11
+n@b@c@d_@a@d@d@e@r_vlg_vec_tst
+vhard_block
+R1
+!i10b 1
+!s100 EnH>;9dIX]oDPooUTmFm<0
+IaO<PQN9OR2gS@d3H]DQSz0
+R2
+R0
+R3
+R4
+R5
+L0 770
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
