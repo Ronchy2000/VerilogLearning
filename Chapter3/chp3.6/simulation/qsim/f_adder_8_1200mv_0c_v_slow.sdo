@@ -30,7 +30,7 @@
 (DELAYFILE
   (SDFVERSION "2.1")
   (DESIGN "f_adder")
-  (DATE "03/22/2021 20:50:16")
+  (DATE "04/05/2021 17:00:07")
   (VENDOR "Altera")
   (PROGRAM "Quartus Prime")
   (VERSION "Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition")

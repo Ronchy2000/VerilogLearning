@@ -19,7 +19,7 @@
 // the top level entity of the current Quartus project .The user can use this   
 // testbench to simulate his design using a third-party simulation tool .       
 // *****************************************************************************
-// Generated on "03/22/2021 20:50:15"
+// Generated on "04/05/2021 17:00:06"
                                                                                 
 // Verilog Test Bench (with test vectors) for design :                          f_adder
 // 
@@ -75,10 +75,8 @@ end
 initial
 begin
 	cin = 1'b0;
-	cin = #7680000 1'b1;
-	cin = #2560000 1'b0;
-	cin = #11520000 1'b1;
-	cin = #1280000 1'b0;
+	cin = #21760000 1'b1;
+	cin = #71680000 1'b0;
 end 
 endmodule
 

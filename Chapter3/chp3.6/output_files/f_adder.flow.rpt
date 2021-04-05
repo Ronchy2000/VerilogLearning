@@ -1,5 +1,5 @@
 Flow report for f_adder
-Mon Mar 22 20:50:16 2021
+Mon Apr 05 17:00:07 2021
 Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
 
 
@@ -41,7 +41,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Mon Mar 22 20:50:16 2021       ;
+; Flow Status                        ; Successful - Mon Apr 05 17:00:07 2021       ;
 ; Quartus Prime Version              ; 19.1.0 Build 670 09/22/2019 SJ Lite Edition ;
 ; Revision Name                      ; f_adder                                     ;
 ; Top-level Entity Name              ; f_adder                                     ;
@@ -112,7 +112,12 @@ https://fpgasoftware.intel.com/eula.
 ; EDA Netlist Writer   ; 00:00:00     ; 1.0                     ; 4652 MB             ; 00:00:01                           ;
 ; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4636 MB             ; 00:00:00                           ;
 ; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4648 MB             ; 00:00:01                           ;
-; Total                ; 00:00:41     ; --                      ; --                  ; 00:00:41                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4636 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:00     ; 1.0                     ; 4636 MB             ; 00:00:00                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4648 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:00     ; 1.0                     ; 4636 MB             ; 00:00:00                           ;
+; EDA Netlist Writer   ; 00:00:00     ; 1.0                     ; 4648 MB             ; 00:00:01                           ;
+; Total                ; 00:00:43     ; --                      ; --                  ; 00:00:44                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -125,6 +130,11 @@ https://fpgasoftware.intel.com/eula.
 ; Fitter               ; LAPTOP-RONCHY    ; Windows 10 ; 10.0       ; x86_64         ;
 ; Assembler            ; LAPTOP-RONCHY    ; Windows 10 ; 10.0       ; x86_64         ;
 ; Timing Analyzer      ; LAPTOP-RONCHY    ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; LAPTOP-RONCHY    ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; LAPTOP-RONCHY    ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; LAPTOP-RONCHY    ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; LAPTOP-RONCHY    ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; LAPTOP-RONCHY    ; Windows 10 ; 10.0       ; x86_64         ;
 ; EDA Netlist Writer   ; LAPTOP-RONCHY    ; Windows 10 ; 10.0       ; x86_64         ;
 ; EDA Netlist Writer   ; LAPTOP-RONCHY    ; Windows 10 ; 10.0       ; x86_64         ;
 ; EDA Netlist Writer   ; LAPTOP-RONCHY    ; Windows 10 ; 10.0       ; x86_64         ;
@@ -153,6 +163,11 @@ quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_setting
 quartus_eda --write_settings_files=off --simulation=on --functional=off --flatten_buses=off --timescale=1ps --tool=modelsim_oem --format=verilog --output_directory=H:/EDATools/MyWorkShop/chp3.6/simulation/qsim/ f_adder -c f_adder
 quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off f_adder -c f_adder --vector_source=H:/EDATools/MyWorkShop/chp3.6/f_adder.vwf --testbench_file=H:/EDATools/MyWorkShop/chp3.6/simulation/qsim/f_adder.vwf.vt
 quartus_eda --write_settings_files=off --simulation=on --functional=off --flatten_buses=off --timescale=1ps --tool=modelsim_oem --format=verilog --output_directory=H:/EDATools/MyWorkShop/chp3.6/simulation/qsim/ f_adder -c f_adder
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off f_adder -c f_adder --vector_source=H:/EDATools/MyWorkShop/chp3.6/f_adder.vwf --testbench_file=H:/EDATools/MyWorkShop/chp3.6/simulation/qsim/f_adder.vwf.vt
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off f_adder -c f_adder --vector_source=H:/EDATools/MyWorkShop/Chapter3/chp3.6/f_adder.vwf --testbench_file=H:/EDATools/MyWorkShop/Chapter3/chp3.6/simulation/qsim/f_adder.vwf.vt
+quartus_eda --write_settings_files=off --simulation=on --functional=off --flatten_buses=off --timescale=1ps --tool=modelsim_oem --format=verilog --output_directory=H:/EDATools/MyWorkShop/Chapter3/chp3.6/simulation/qsim/ f_adder -c f_adder
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off f_adder -c f_adder --vector_source=H:/EDATools/MyWorkShop/Chapter3/chp3.6/f_adder.vwf --testbench_file=H:/EDATools/MyWorkShop/Chapter3/chp3.6/simulation/qsim/f_adder.vwf.vt
+quartus_eda --write_settings_files=off --simulation=on --functional=off --flatten_buses=off --timescale=1ps --tool=modelsim_oem --format=verilog --output_directory=H:/EDATools/MyWorkShop/Chapter3/chp3.6/simulation/qsim/ f_adder -c f_adder
 
 
 

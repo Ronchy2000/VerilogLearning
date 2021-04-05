@@ -1,5 +1,5 @@
 EDA Netlist Writer report for f_adder
-Mon Mar 22 20:50:16 2021
+Mon Apr 05 17:00:07 2021
 Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
 
 
@@ -37,7 +37,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Mon Mar 22 20:50:16 2021 ;
+; EDA Netlist Writer Status ; Successful - Mon Apr 05 17:00:07 2021 ;
 ; Revision Name             ; f_adder                               ;
 ; Top-level Entity Name     ; f_adder                               ;
 ; Family                    ; Cyclone IV E                          ;
@@ -67,20 +67,20 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------------------------------------------------------------+---------------------------+
 
 
-+---------------------------------------------------------------------------------+
-; Simulation Generated Files                                                      ;
-+---------------------------------------------------------------------------------+
-; Generated Files                                                                 ;
-+---------------------------------------------------------------------------------+
-; H:/EDATools/MyWorkShop/chp3.6/simulation/qsim//f_adder_8_1200mv_85c_slow.vo     ;
-; H:/EDATools/MyWorkShop/chp3.6/simulation/qsim//f_adder_8_1200mv_0c_slow.vo      ;
-; H:/EDATools/MyWorkShop/chp3.6/simulation/qsim//f_adder_min_1200mv_0c_fast.vo    ;
-; H:/EDATools/MyWorkShop/chp3.6/simulation/qsim//f_adder.vo                       ;
-; H:/EDATools/MyWorkShop/chp3.6/simulation/qsim//f_adder_8_1200mv_85c_v_slow.sdo  ;
-; H:/EDATools/MyWorkShop/chp3.6/simulation/qsim//f_adder_8_1200mv_0c_v_slow.sdo   ;
-; H:/EDATools/MyWorkShop/chp3.6/simulation/qsim//f_adder_min_1200mv_0c_v_fast.sdo ;
-; H:/EDATools/MyWorkShop/chp3.6/simulation/qsim//f_adder_v.sdo                    ;
-+---------------------------------------------------------------------------------+
++------------------------------------------------------------------------------------------+
+; Simulation Generated Files                                                               ;
++------------------------------------------------------------------------------------------+
+; Generated Files                                                                          ;
++------------------------------------------------------------------------------------------+
+; H:/EDATools/MyWorkShop/Chapter3/chp3.6/simulation/qsim//f_adder_8_1200mv_85c_slow.vo     ;
+; H:/EDATools/MyWorkShop/Chapter3/chp3.6/simulation/qsim//f_adder_8_1200mv_0c_slow.vo      ;
+; H:/EDATools/MyWorkShop/Chapter3/chp3.6/simulation/qsim//f_adder_min_1200mv_0c_fast.vo    ;
+; H:/EDATools/MyWorkShop/Chapter3/chp3.6/simulation/qsim//f_adder.vo                       ;
+; H:/EDATools/MyWorkShop/Chapter3/chp3.6/simulation/qsim//f_adder_8_1200mv_85c_v_slow.sdo  ;
+; H:/EDATools/MyWorkShop/Chapter3/chp3.6/simulation/qsim//f_adder_8_1200mv_0c_v_slow.sdo   ;
+; H:/EDATools/MyWorkShop/Chapter3/chp3.6/simulation/qsim//f_adder_min_1200mv_0c_v_fast.sdo ;
+; H:/EDATools/MyWorkShop/Chapter3/chp3.6/simulation/qsim//f_adder_v.sdo                    ;
++------------------------------------------------------------------------------------------+
 
 
 +-----------------------------+
@@ -103,20 +103,20 @@ Info: Running Quartus Prime EDA Netlist Writer
     Info: Intel and sold by Intel or its authorized distributors.  Please
     Info: refer to the applicable agreement for further details, at
     Info: https://fpgasoftware.intel.com/eula.
-    Info: Processing started: Mon Mar 22 20:50:15 2021
-Info: Command: quartus_eda --write_settings_files=off --simulation=on --functional=off --flatten_buses=off --timescale=1ps --tool=modelsim_oem --format=verilog --output_directory=H:/EDATools/MyWorkShop/chp3.6/simulation/qsim/ f_adder -c f_adder
+    Info: Processing started: Mon Apr 05 17:00:07 2021
+Info: Command: quartus_eda --write_settings_files=off --simulation=on --functional=off --flatten_buses=off --timescale=1ps --tool=modelsim_oem --format=verilog --output_directory=H:/EDATools/MyWorkShop/Chapter3/chp3.6/simulation/qsim/ f_adder -c f_adder
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (204019): Generated file f_adder_8_1200mv_85c_slow.vo in folder "H:/EDATools/MyWorkShop/chp3.6/simulation/qsim//" for EDA simulation tool
-Info (204019): Generated file f_adder_8_1200mv_0c_slow.vo in folder "H:/EDATools/MyWorkShop/chp3.6/simulation/qsim//" for EDA simulation tool
-Info (204019): Generated file f_adder_min_1200mv_0c_fast.vo in folder "H:/EDATools/MyWorkShop/chp3.6/simulation/qsim//" for EDA simulation tool
-Info (204019): Generated file f_adder.vo in folder "H:/EDATools/MyWorkShop/chp3.6/simulation/qsim//" for EDA simulation tool
-Info (204019): Generated file f_adder_8_1200mv_85c_v_slow.sdo in folder "H:/EDATools/MyWorkShop/chp3.6/simulation/qsim//" for EDA simulation tool
-Info (204019): Generated file f_adder_8_1200mv_0c_v_slow.sdo in folder "H:/EDATools/MyWorkShop/chp3.6/simulation/qsim//" for EDA simulation tool
-Info (204019): Generated file f_adder_min_1200mv_0c_v_fast.sdo in folder "H:/EDATools/MyWorkShop/chp3.6/simulation/qsim//" for EDA simulation tool
-Info (204019): Generated file f_adder_v.sdo in folder "H:/EDATools/MyWorkShop/chp3.6/simulation/qsim//" for EDA simulation tool
+Info (204019): Generated file f_adder_8_1200mv_85c_slow.vo in folder "H:/EDATools/MyWorkShop/Chapter3/chp3.6/simulation/qsim//" for EDA simulation tool
+Info (204019): Generated file f_adder_8_1200mv_0c_slow.vo in folder "H:/EDATools/MyWorkShop/Chapter3/chp3.6/simulation/qsim//" for EDA simulation tool
+Info (204019): Generated file f_adder_min_1200mv_0c_fast.vo in folder "H:/EDATools/MyWorkShop/Chapter3/chp3.6/simulation/qsim//" for EDA simulation tool
+Info (204019): Generated file f_adder.vo in folder "H:/EDATools/MyWorkShop/Chapter3/chp3.6/simulation/qsim//" for EDA simulation tool
+Info (204019): Generated file f_adder_8_1200mv_85c_v_slow.sdo in folder "H:/EDATools/MyWorkShop/Chapter3/chp3.6/simulation/qsim//" for EDA simulation tool
+Info (204019): Generated file f_adder_8_1200mv_0c_v_slow.sdo in folder "H:/EDATools/MyWorkShop/Chapter3/chp3.6/simulation/qsim//" for EDA simulation tool
+Info (204019): Generated file f_adder_min_1200mv_0c_v_fast.sdo in folder "H:/EDATools/MyWorkShop/Chapter3/chp3.6/simulation/qsim//" for EDA simulation tool
+Info (204019): Generated file f_adder_v.sdo in folder "H:/EDATools/MyWorkShop/Chapter3/chp3.6/simulation/qsim//" for EDA simulation tool
 Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 1 warning
     Info: Peak virtual memory: 4652 megabytes
-    Info: Processing ended: Mon Mar 22 20:50:16 2021
+    Info: Processing ended: Mon Apr 05 17:00:08 2021
     Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:01
 
