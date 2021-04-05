@@ -1,7 +1,7 @@
 onerror {exit -code 1}
 vlib work
 vlog -work work MULT4B.vo
-vlog -work work mult4b2.vwf.vt
+vlog -work work MULT4B.vwf.vt
 vsim -novopt -c -t 1ps -L cycloneive_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.MULT4B_vlg_vec_tst
 vcd file -direction MULT4B.msim.vcd
 vcd add -internal MULT4B_vlg_vec_tst/*

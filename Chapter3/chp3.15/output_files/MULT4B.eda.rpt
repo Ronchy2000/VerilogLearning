@@ -1,5 +1,5 @@
 EDA Netlist Writer report for MULT4B
-Tue Mar 23 21:01:50 2021
+Mon Apr 05 22:22:16 2021
 Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
 
 
@@ -8,7 +8,9 @@ Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
 ---------------------
   1. Legal Notice
   2. EDA Netlist Writer Summary
-  3. EDA Netlist Writer Messages
+  3. Simulation Settings
+  4. Simulation Generated Files
+  5. EDA Netlist Writer Messages
 
 
 
@@ -35,11 +37,42 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Tue Mar 23 21:01:50 2021 ;
+; EDA Netlist Writer Status ; Successful - Mon Apr 05 22:22:16 2021 ;
 ; Revision Name             ; MULT4B                                ;
 ; Top-level Entity Name     ; MULT4B                                ;
 ; Family                    ; Cyclone IV E                          ;
+; Simulation Files Creation ; Successful                            ;
 +---------------------------+---------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Simulation Settings                                                                                                           ;
++---------------------------------------------------------------------------------------------------+---------------------------+
+; Option                                                                                            ; Setting                   ;
++---------------------------------------------------------------------------------------------------+---------------------------+
+; Tool Name                                                                                         ; ModelSim-Altera (Verilog) ;
+; Generate functional simulation netlist                                                            ; On                        ;
+; Truncate long hierarchy paths                                                                     ; Off                       ;
+; Map illegal HDL characters                                                                        ; Off                       ;
+; Flatten buses into individual nodes                                                               ; Off                       ;
+; Maintain hierarchy                                                                                ; Off                       ;
+; Bring out device-wide set/reset signals as ports                                                  ; Off                       ;
+; Enable glitch filtering                                                                           ; Off                       ;
+; Do not write top level VHDL entity                                                                ; Off                       ;
+; Disable detection of setup and hold time violations in the input registers of bi-directional pins ; Off                       ;
+; Architecture name in VHDL output netlist                                                          ; structure                 ;
+; Generate third-party EDA tool command script for RTL functional simulation                        ; Off                       ;
+; Generate third-party EDA tool command script for gate-level simulation                            ; Off                       ;
++---------------------------------------------------------------------------------------------------+---------------------------+
+
+
++--------------------------------------------------------------------+
+; Simulation Generated Files                                         ;
++--------------------------------------------------------------------+
+; Generated Files                                                    ;
++--------------------------------------------------------------------+
+; H:/EDATools/MyWorkShop/Chapter3/chp3.15/simulation/qsim//MULT4B.vo ;
++--------------------------------------------------------------------+
 
 
 +-----------------------------+
@@ -62,28 +95,14 @@ Info: Running Quartus Prime EDA Netlist Writer
     Info: Intel and sold by Intel or its authorized distributors.  Please
     Info: refer to the applicable agreement for further details, at
     Info: https://fpgasoftware.intel.com/eula.
-    Info: Processing started: Tue Mar 23 21:01:50 2021
-Info: Command: quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off MULT4B -c MULT4B --vector_source=H:/EDATools/MyWorkShop/chp3.15/mult4b2.vwf --testbench_file=H:/EDATools/MyWorkShop/chp3.15/simulation/qsim/mult4b2.vwf.vt
+    Info: Processing started: Mon Apr 05 22:22:15 2021
+Info: Command: quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory=H:/EDATools/MyWorkShop/Chapter3/chp3.15/simulation/qsim/ MULT4B -c MULT4B
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Warning (201007): Can't find port "A[4]" in design
-Warning (201007): Can't find port "B[4]" in design
-Warning (201007): Can't find port "A[4]" in design
-Warning (201007): Can't find port "B[4]" in design
-Warning (201007): Can't find port "A[4]" in design
-Warning (201007): Can't find port "B[4]" in design
-Warning (201005): Ignoring output pin "R" in vector source file when writing test bench files
-Warning (201005): Ignoring output pin "R[7]" in vector source file when writing test bench files
-Warning (201005): Ignoring output pin "R[6]" in vector source file when writing test bench files
-Warning (201005): Ignoring output pin "R[5]" in vector source file when writing test bench files
-Warning (201005): Ignoring output pin "R[4]" in vector source file when writing test bench files
-Warning (201005): Ignoring output pin "R[3]" in vector source file when writing test bench files
-Warning (201005): Ignoring output pin "R[2]" in vector source file when writing test bench files
-Warning (201005): Ignoring output pin "R[1]" in vector source file when writing test bench files
-Info (201000): Generated Verilog Test Bench File H:/EDATools/MyWorkShop/chp3.15/simulation/qsim/mult4b2.vwf.vt for simulation
-Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 15 warnings
-    Info: Peak virtual memory: 4640 megabytes
-    Info: Processing ended: Tue Mar 23 21:01:52 2021
-    Info: Elapsed time: 00:00:02
+Info (204019): Generated file MULT4B.vo in folder "H:/EDATools/MyWorkShop/Chapter3/chp3.15/simulation/qsim//" for EDA simulation tool
+Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 4648 megabytes
+    Info: Processing ended: Mon Apr 05 22:22:16 2021
+    Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:01
 
 

@@ -1,46 +1,3 @@
-/*<simulation_settings>
-<ftestbench_cmd>quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off MULT4B -c MULT4B --vector_source="H:/EDATools/MyWorkShop/Chapter3/chp3.15/MULT4B.vwf" --testbench_file="H:/EDATools/MyWorkShop/Chapter3/chp3.15/simulation/qsim/MULT4B.vwf.vt"</ftestbench_cmd>
-<ttestbench_cmd>quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off MULT4B -c MULT4B --vector_source="H:/EDATools/MyWorkShop/Chapter3/chp3.15/MULT4B.vwf" --testbench_file="H:/EDATools/MyWorkShop/Chapter3/chp3.15/simulation/qsim/MULT4B.vwf.vt"</ttestbench_cmd>
-<fnetlist_cmd>quartus_eda --write_settings_files=off --simulation --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory="H:/EDATools/MyWorkShop/Chapter3/chp3.15/simulation/qsim/" MULT4B -c MULT4B</fnetlist_cmd>
-<tnetlist_cmd>quartus_eda --write_settings_files=off --simulation --functional=off --flatten_buses=off --timescale=1ps --tool=modelsim_oem --format=verilog --output_directory="H:/EDATools/MyWorkShop/Chapter3/chp3.15/simulation/qsim/" MULT4B -c MULT4B</tnetlist_cmd>
-<modelsim_script>onerror {exit -code 1}
-vlib work
-vlog -work work MULT4B.vo
-vlog -work work MULT4B.vwf.vt
-vsim -novopt -c -t 1ps -L cycloneive_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.MULT4B_vlg_vec_tst
-vcd file -direction MULT4B.msim.vcd
-vcd add -internal MULT4B_vlg_vec_tst/*
-vcd add -internal MULT4B_vlg_vec_tst/i1/*
-proc simTimestamp {} {
-    echo "Simulation time: $::now ps"
-    if { [string equal running [runStatus]] } {
-        after 2500 simTimestamp
-    }
-}
-after 2500 simTimestamp
-run -all
-quit -f
-</modelsim_script>
-<modelsim_script_timing>onerror {exit -code 1}
-vlib work
-vlog -work work MULT4B.vo
-vlog -work work MULT4B.vwf.vt
-vsim -novopt -c -t 1ps -L cycloneive_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.MULT4B_vlg_vec_tst
-vcd file -direction MULT4B.msim.vcd
-vcd add -internal MULT4B_vlg_vec_tst/*
-vcd add -internal MULT4B_vlg_vec_tst/i1/*
-proc simTimestamp {} {
-    echo "Simulation time: $::now ps"
-    if { [string equal running [runStatus]] } {
-        after 2500 simTimestamp
-    }
-}
-after 2500 simTimestamp
-run -all
-quit -f
-</modelsim_script_timing>
-<hdl_lang>verilog</hdl_lang>
-</simulation_settings>*/
 /*
 WARNING: Do NOT edit the input and output ports in this file in a text
 editor if you plan to continue editing the block that represents it in
@@ -83,7 +40,7 @@ SIGNAL("A[3]")
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = INPUT;
-	PARENT = "A";
+	PARENT = "";
 }
 
 SIGNAL("A[2]")
@@ -93,7 +50,7 @@ SIGNAL("A[2]")
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = INPUT;
-	PARENT = "A";
+	PARENT = "";
 }
 
 SIGNAL("A[1]")
@@ -103,7 +60,7 @@ SIGNAL("A[1]")
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = INPUT;
-	PARENT = "A";
+	PARENT = "";
 }
 
 SIGNAL("A[4]")
@@ -123,7 +80,7 @@ SIGNAL("B[3]")
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = INPUT;
-	PARENT = "B";
+	PARENT = "";
 }
 
 SIGNAL("B[2]")
@@ -133,7 +90,7 @@ SIGNAL("B[2]")
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = INPUT;
-	PARENT = "B";
+	PARENT = "";
 }
 
 SIGNAL("B[1]")
@@ -143,7 +100,7 @@ SIGNAL("B[1]")
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = INPUT;
-	PARENT = "B";
+	PARENT = "";
 }
 
 SIGNAL("B[4]")
@@ -156,16 +113,6 @@ SIGNAL("B[4]")
 	PARENT = "";
 }
 
-SIGNAL("R[7]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = OUTPUT;
-	PARENT = "R";
-}
-
 SIGNAL("R[6]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
@@ -173,7 +120,7 @@ SIGNAL("R[6]")
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = OUTPUT;
-	PARENT = "R";
+	PARENT = "";
 }
 
 SIGNAL("R[5]")
@@ -183,7 +130,7 @@ SIGNAL("R[5]")
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = OUTPUT;
-	PARENT = "R";
+	PARENT = "";
 }
 
 SIGNAL("R[4]")
@@ -193,7 +140,7 @@ SIGNAL("R[4]")
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = OUTPUT;
-	PARENT = "R";
+	PARENT = "";
 }
 
 SIGNAL("R[3]")
@@ -203,7 +150,7 @@ SIGNAL("R[3]")
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = OUTPUT;
-	PARENT = "R";
+	PARENT = "";
 }
 
 SIGNAL("R[2]")
@@ -213,7 +160,7 @@ SIGNAL("R[2]")
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = OUTPUT;
-	PARENT = "R";
+	PARENT = "";
 }
 
 SIGNAL("R[1]")
@@ -223,10 +170,10 @@ SIGNAL("R[1]")
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = OUTPUT;
-	PARENT = "R";
+	PARENT = "";
 }
 
-SIGNAL("R[8]")
+SIGNAL("R[7]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -238,7 +185,7 @@ SIGNAL("R[8]")
 
 GROUP("R")
 {
-	MEMBERS = "R[8]", "R[7]", "R[6]", "R[5]", "R[4]", "R[3]", "R[2]", "R[1]";
+	MEMBERS = "R[7]", "R[6]", "R[5]", "R[4]", "R[3]", "R[2]", "R[1]";
 }
 
 GROUP("B")
@@ -259,10 +206,10 @@ TRANSITION_LIST("A[3]")
 		NODE
 		{
 			REPEAT = 1;
-			LEVEL 0 FOR 40000.0;
 			LEVEL 1 FOR 40000.0;
+			LEVEL 0 FOR 40000.0;
+			LEVEL 1 FOR 20000.0;
 		}
-		LEVEL 0 FOR 20000.0;
 	}
 }
 
@@ -273,11 +220,13 @@ TRANSITION_LIST("A[2]")
 		REPEAT = 1;
 		NODE
 		{
-			REPEAT = 2;
+			REPEAT = 1;
 			LEVEL 0 FOR 20000.0;
 			LEVEL 1 FOR 20000.0;
+			LEVEL 0 FOR 20000.0;
+			LEVEL 1 FOR 20000.0;
+			LEVEL 0 FOR 20000.0;
 		}
-		LEVEL 0 FOR 20000.0;
 	}
 }
 
@@ -288,7 +237,15 @@ TRANSITION_LIST("A[1]")
 		REPEAT = 1;
 		NODE
 		{
-			REPEAT = 5;
+			REPEAT = 1;
+			LEVEL 0 FOR 10000.0;
+			LEVEL 1 FOR 10000.0;
+			LEVEL 0 FOR 10000.0;
+			LEVEL 1 FOR 10000.0;
+			LEVEL X FOR 10000.0;
+			LEVEL 1 FOR 10000.0;
+			LEVEL 0 FOR 10000.0;
+			LEVEL 1 FOR 10000.0;
 			LEVEL 0 FOR 10000.0;
 			LEVEL 1 FOR 10000.0;
 		}
@@ -300,8 +257,8 @@ TRANSITION_LIST("A[4]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 80000.0;
-		LEVEL 1 FOR 20000.0;
+		LEVEL 0 FOR 40000.0;
+		LEVEL 1 FOR 60000.0;
 	}
 }
 
@@ -310,9 +267,13 @@ TRANSITION_LIST("B[3]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 40000.0;
-		LEVEL 1 FOR 40000.0;
-		LEVEL 0 FOR 20000.0;
+		NODE
+		{
+			REPEAT = 1;
+			LEVEL 0 FOR 40000.0;
+			LEVEL 1 FOR 40000.0;
+			LEVEL 0 FOR 20000.0;
+		}
 	}
 }
 
@@ -323,11 +284,13 @@ TRANSITION_LIST("B[2]")
 		REPEAT = 1;
 		NODE
 		{
-			REPEAT = 2;
+			REPEAT = 1;
 			LEVEL 0 FOR 20000.0;
 			LEVEL 1 FOR 20000.0;
+			LEVEL 0 FOR 20000.0;
+			LEVEL 1 FOR 20000.0;
+			LEVEL 0 FOR 20000.0;
 		}
-		LEVEL 0 FOR 20000.0;
 	}
 }
 
@@ -338,8 +301,16 @@ TRANSITION_LIST("B[1]")
 		REPEAT = 1;
 		NODE
 		{
-			REPEAT = 5;
+			REPEAT = 1;
+			LEVEL X FOR 10000.0;
+			LEVEL 1 FOR 10000.0;
 			LEVEL 0 FOR 10000.0;
+			LEVEL 1 FOR 10000.0;
+			LEVEL 0 FOR 10000.0;
+			LEVEL 1 FOR 10000.0;
+			LEVEL 0 FOR 10000.0;
+			LEVEL 1 FOR 10000.0;
+			LEVEL X FOR 10000.0;
 			LEVEL 1 FOR 10000.0;
 		}
 	}
@@ -350,17 +321,8 @@ TRANSITION_LIST("B[4]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 1 FOR 80000.0;
-		LEVEL 0 FOR 20000.0;
-	}
-}
-
-TRANSITION_LIST("R[7]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL X FOR 100000.0;
+		LEVEL 0 FOR 80000.0;
+		LEVEL 1 FOR 20000.0;
 	}
 }
 
@@ -369,7 +331,11 @@ TRANSITION_LIST("R[6]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 100000.0;
+		NODE
+		{
+			REPEAT = 1;
+			LEVEL 0 FOR 100000.0;
+		}
 	}
 }
 
@@ -378,7 +344,15 @@ TRANSITION_LIST("R[5]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 100000.0;
+		NODE
+		{
+			REPEAT = 1;
+			LEVEL 0 FOR 30000.0;
+			LEVEL 1 FOR 10000.0;
+			LEVEL 0 FOR 30000.0;
+			LEVEL 1 FOR 10000.0;
+			LEVEL 0 FOR 20000.0;
+		}
 	}
 }
 
@@ -387,7 +361,16 @@ TRANSITION_LIST("R[4]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 100000.0;
+		NODE
+		{
+			REPEAT = 1;
+			LEVEL 0 FOR 20000.0;
+			LEVEL 1 FOR 10000.0;
+			LEVEL 0 FOR 30000.0;
+			LEVEL 1 FOR 10000.0;
+			LEVEL X FOR 10000.0;
+			LEVEL 0 FOR 20000.0;
+		}
 	}
 }
 
@@ -396,7 +379,17 @@ TRANSITION_LIST("R[3]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 100000.0;
+		NODE
+		{
+			REPEAT = 1;
+			LEVEL 0 FOR 10000.0;
+			LEVEL 1 FOR 30000.0;
+			LEVEL 0 FOR 10000.0;
+			LEVEL 1 FOR 20000.0;
+			LEVEL X FOR 10000.0;
+			LEVEL 0 FOR 10000.0;
+			LEVEL 1 FOR 10000.0;
+		}
 	}
 }
 
@@ -405,7 +398,13 @@ TRANSITION_LIST("R[2]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 100000.0;
+		NODE
+		{
+			REPEAT = 1;
+			LEVEL 0 FOR 30000.0;
+			LEVEL X FOR 50000.0;
+			LEVEL 0 FOR 20000.0;
+		}
 	}
 }
 
@@ -414,11 +413,22 @@ TRANSITION_LIST("R[1]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 100000.0;
+		NODE
+		{
+			REPEAT = 1;
+			LEVEL 0 FOR 10000.0;
+			LEVEL 1 FOR 10000.0;
+			LEVEL X FOR 20000.0;
+			LEVEL 0 FOR 10000.0;
+			LEVEL 1 FOR 10000.0;
+			LEVEL X FOR 20000.0;
+			LEVEL 0 FOR 10000.0;
+			LEVEL 1 FOR 10000.0;
+		}
 	}
 }
 
-TRANSITION_LIST("R[8]")
+TRANSITION_LIST("R[7]")
 {
 	NODE
 	{
@@ -534,12 +544,12 @@ DISPLAY_LINE
 	RADIX = Binary;
 	TREE_INDEX = 10;
 	TREE_LEVEL = 0;
-	CHILDREN = 11, 12, 13, 14, 15, 16, 17, 18;
+	CHILDREN = 11, 12, 13, 14, 15, 16, 17;
 }
 
 DISPLAY_LINE
 {
-	CHANNEL = "R[8]";
+	CHANNEL = "R[7]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 11;
@@ -549,7 +559,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "R[7]";
+	CHANNEL = "R[6]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 12;
@@ -559,7 +569,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "R[6]";
+	CHANNEL = "R[5]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 13;
@@ -569,7 +579,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "R[5]";
+	CHANNEL = "R[4]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 14;
@@ -579,7 +589,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "R[4]";
+	CHANNEL = "R[3]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 15;
@@ -589,7 +599,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "R[3]";
+	CHANNEL = "R[2]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 16;
@@ -599,20 +609,10 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "R[2]";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Binary;
-	TREE_INDEX = 17;
-	TREE_LEVEL = 1;
-	PARENT = 10;
-}
-
-DISPLAY_LINE
-{
 	CHANNEL = "R[1]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
-	TREE_INDEX = 18;
+	TREE_INDEX = 17;
 	TREE_LEVEL = 1;
 	PARENT = 10;
 }

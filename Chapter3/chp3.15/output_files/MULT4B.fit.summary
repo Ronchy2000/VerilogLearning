@@ -1,15 +1,15 @@
-Fitter Status : Successful - Tue Mar 23 20:50:39 2021
+Fitter Status : Successful - Mon Apr 05 22:16:39 2021
 Quartus Prime Version : 19.1.0 Build 670 09/22/2019 SJ Lite Edition
 Revision Name : MULT4B
 Top-level Entity Name : MULT4B
 Family : Cyclone IV E
 Device : EP4CE22E22C8
 Timing Models : Final
-Total logic elements : 24 / 22,320 ( < 1 % )
-    Total combinational functions : 24 / 22,320 ( < 1 % )
+Total logic elements : 34 / 22,320 ( < 1 % )
+    Total combinational functions : 34 / 22,320 ( < 1 % )
     Dedicated logic registers : 0 / 22,320 ( 0 % )
 Total registers : 0
-Total pins : 15 / 80 ( 19 % )
+Total pins : 16 / 80 ( 20 % )
 Total virtual pins : 0
 Total memory bits : 0 / 608,256 ( 0 % )
 Embedded Multiplier 9-bit elements : 0 / 132 ( 0 % )

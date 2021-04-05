@@ -1,5 +1,5 @@
 Analysis & Synthesis report for MULT4B
-Tue Mar 23 20:50:33 2021
+Mon Apr 05 22:16:33 2021
 Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
 
 
@@ -44,16 +44,16 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Tue Mar 23 20:50:33 2021       ;
+; Analysis & Synthesis Status        ; Successful - Mon Apr 05 22:16:33 2021       ;
 ; Quartus Prime Version              ; 19.1.0 Build 670 09/22/2019 SJ Lite Edition ;
 ; Revision Name                      ; MULT4B                                      ;
 ; Top-level Entity Name              ; MULT4B                                      ;
 ; Family                             ; Cyclone IV E                                ;
-; Total logic elements               ; 24                                          ;
-;     Total combinational functions  ; 24                                          ;
+; Total logic elements               ; 34                                          ;
+;     Total combinational functions  ; 34                                          ;
 ;     Dedicated logic registers      ; 0                                           ;
 ; Total registers                    ; 0                                           ;
-; Total pins                         ; 15                                          ;
+; Total pins                         ; 16                                          ;
 ; Total virtual pins                 ; 0                                           ;
 ; Total memory bits                  ; 0                                           ;
 ; Embedded Multiplier 9-bit elements ; 0                                           ;
@@ -163,13 +163,13 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------+-------------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                          ;
-+----------------------------------+-----------------+------------------------+-----------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path            ; Library ;
-+----------------------------------+-----------------+------------------------+-----------------------------------------+---------+
-; MULT4B.v                         ; yes             ; User Verilog HDL File  ; H:/EDATools/MyWorkShop/chp3.15/MULT4B.v ;         ;
-+----------------------------------+-----------------+------------------------+-----------------------------------------+---------+
++------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                   ;
++----------------------------------+-----------------+------------------------+--------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                     ; Library ;
++----------------------------------+-----------------+------------------------+--------------------------------------------------+---------+
+; MULT4B.v                         ; yes             ; User Verilog HDL File  ; H:/EDATools/MyWorkShop/Chapter3/chp3.15/MULT4B.v ;         ;
++----------------------------------+-----------------+------------------------+--------------------------------------------------+---------+
 
 
 +----------------------------------------------------------+
@@ -177,30 +177,30 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------+------------+
 ; Resource                                    ; Usage      ;
 +---------------------------------------------+------------+
-; Estimated Total logic elements              ; 24         ;
+; Estimated Total logic elements              ; 34         ;
 ;                                             ;            ;
-; Total combinational functions               ; 24         ;
+; Total combinational functions               ; 34         ;
 ; Logic element usage by number of LUT inputs ;            ;
-;     -- 4 input functions                    ; 5          ;
-;     -- 3 input functions                    ; 9          ;
-;     -- <=2 input functions                  ; 10         ;
+;     -- 4 input functions                    ; 6          ;
+;     -- 3 input functions                    ; 16         ;
+;     -- <=2 input functions                  ; 12         ;
 ;                                             ;            ;
 ; Logic elements by mode                      ;            ;
-;     -- normal mode                          ; 16         ;
-;     -- arithmetic mode                      ; 8          ;
+;     -- normal mode                          ; 22         ;
+;     -- arithmetic mode                      ; 12         ;
 ;                                             ;            ;
 ; Total registers                             ; 0          ;
 ;     -- Dedicated logic registers            ; 0          ;
 ;     -- I/O registers                        ; 0          ;
 ;                                             ;            ;
-; I/O pins                                    ; 15         ;
+; I/O pins                                    ; 16         ;
 ;                                             ;            ;
 ; Embedded Multiplier 9-bit elements          ; 0          ;
 ;                                             ;            ;
 ; Maximum fan-out node                        ; B[1]~input ;
 ; Maximum fan-out                             ; 7          ;
-; Total fan-out                               ; 85         ;
-; Average fan-out                             ; 1.57       ;
+; Total fan-out                               ; 114        ;
+; Average fan-out                             ; 1.73       ;
 +---------------------------------------------+------------+
 
 
@@ -209,7 +209,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+---------------------+-------------+--------------+
 ; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name ; Entity Name ; Library Name ;
 +----------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+---------------------+-------------+--------------+
-; |MULT4B                    ; 24 (24)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 15   ; 0            ; |MULT4B             ; MULT4B      ; work         ;
+; |MULT4B                    ; 34 (34)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 16   ; 0            ; |MULT4B             ; MULT4B      ; work         ;
 +----------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+---------------------+-------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -234,7 +234,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------+-------+-----------------------------------------------+
 ; Parameter Name ; Value ; Type                                          ;
 +----------------+-------+-----------------------------------------------+
-; S              ; 3     ; Signed Integer                                ;
+; S              ; 4     ; Signed Integer                                ;
 +----------------+-------+-----------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -244,19 +244,19 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
-; boundary_port         ; 15                          ;
-; cycloneiii_lcell_comb ; 24                          ;
-;     arith             ; 8                           ;
+; boundary_port         ; 16                          ;
+; cycloneiii_lcell_comb ; 34                          ;
+;     arith             ; 12                          ;
 ;         2 data inputs ; 1                           ;
-;         3 data inputs ; 7                           ;
-;     normal            ; 16                          ;
-;         0 data inputs ; 2                           ;
-;         2 data inputs ; 7                           ;
-;         3 data inputs ; 2                           ;
-;         4 data inputs ; 5                           ;
+;         3 data inputs ; 11                          ;
+;     normal            ; 22                          ;
+;         0 data inputs ; 3                           ;
+;         2 data inputs ; 8                           ;
+;         3 data inputs ; 5                           ;
+;         4 data inputs ; 6                           ;
 ;                       ;                             ;
-; Max LUT depth         ; 5.50                        ;
-; Average LUT depth     ; 4.99                        ;
+; Max LUT depth         ; 7.60                        ;
+; Average LUT depth     ; 6.91                        ;
 +-----------------------+-----------------------------+
 
 
@@ -275,29 +275,26 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
-    Info: Processing started: Tue Mar 23 20:50:21 2021
+    Info: Processing started: Mon Apr 05 22:16:22 2021
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off MULT4B -c MULT4B
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 8 of the 8 processors detected
-Warning (12090): Entity "MULT4B" obtained from "MULT4B.v" instead of from Quartus Prime megafunction library File: H:/EDATools/MyWorkShop/chp3.15/MULT4B.v Line: 1
+Warning (12090): Entity "MULT4B" obtained from "MULT4B.v" instead of from Quartus Prime megafunction library File: H:/EDATools/MyWorkShop/Chapter3/chp3.15/MULT4B.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file mult4b.v
-    Info (12023): Found entity 1: MULT4B File: H:/EDATools/MyWorkShop/chp3.15/MULT4B.v Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file mult4b2.v
-    Info (12023): Found entity 1: mult4b2 File: H:/EDATools/MyWorkShop/chp3.15/mult4b2.v Line: 1
+    Info (12023): Found entity 1: MULT4B File: H:/EDATools/MyWorkShop/Chapter3/chp3.15/MULT4B.v Line: 1
+Warning (12019): Can't analyze file -- file mult4b2.v is missing
 Info (12127): Elaborating entity "MULT4B" for the top level hierarchy
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Warning (21074): Design contains 1 input pin(s) that do not drive logic
-    Warning (15610): No output dependent on input pin "B[0]" File: H:/EDATools/MyWorkShop/chp3.15/MULT4B.v Line: 5
-Info (21057): Implemented 39 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 50 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 8 input pins
-    Info (21059): Implemented 7 output pins
-    Info (21061): Implemented 24 logic cells
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 4 warnings
-    Info: Peak virtual memory: 4775 megabytes
-    Info: Processing ended: Tue Mar 23 20:50:33 2021
-    Info: Elapsed time: 00:00:12
-    Info: Total CPU time (on all processors): 00:00:29
+    Info (21059): Implemented 8 output pins
+    Info (21061): Implemented 34 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 3 warnings
+    Info: Peak virtual memory: 4778 megabytes
+    Info: Processing ended: Mon Apr 05 22:16:33 2021
+    Info: Elapsed time: 00:00:11
+    Info: Total CPU time (on all processors): 00:00:26
 
 
