@@ -1,0 +1,75 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dH:/EDATools/MyWorkShop/Chapter5/chap5.10/simulation/qsim
+vhard_block
+Z1 !s110 1617866119
+!i10b 1
+!s100 Z7Bi:9_LV`9PELOLg]Yl:2
+IH6TG8:?Cof:`KF4leX`;j1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1617866118
+Z4 8LATCH3.vo
+Z5 FLATCH3.vo
+L0 140
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1617866119.000000
+Z8 !s107 LATCH3.vo|
+Z9 !s90 -work|work|LATCH3.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vLATCH3
+R1
+!i10b 1
+!s100 4lEQF26acJ>g84?c?63@B0
+IPWa>Eb[8b0_W`cI;19NAV2
+R2
+R0
+R3
+R4
+R5
+L0 32
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@l@a@t@c@h3
+vLATCH3_vlg_vec_tst
+R1
+!i10b 1
+!s100 RS>Z;i_nL>bPK<EO;Z^6n3
+II^cH;2@a:[ULBX_J9>ETR0
+R2
+R0
+w1617866117
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 30
+R6
+r1
+!s85 0
+31
+R7
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R10
+R11
+n@l@a@t@c@h3_vlg_vec_tst
