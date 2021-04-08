@@ -1,0 +1,7 @@
+|AMOD
+D => Q~reg0.DATAIN
+A => Q1.IN1
+CLK => Q1.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
