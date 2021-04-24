@@ -1,0 +1,109 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "NOUT[0]",
+					"strict" : false
+				},
+				{
+					"name" : "NOUT[1]",
+					"strict" : false
+				},
+				{
+					"name" : "NOUT[2]",
+					"strict" : false
+				},
+				{
+					"name" : "NOUT[3]",
+					"strict" : false
+				},
+				{
+					"name" : "NOUT[4]",
+					"strict" : false
+				},
+				{
+					"name" : "NOUT[5]",
+					"strict" : false
+				},
+				{
+					"name" : "NOUT[6]",
+					"strict" : false
+				},
+				{
+					"name" : "NOUT[7]",
+					"strict" : false
+				},
+				{
+					"name" : "TOUT[0]",
+					"strict" : false
+				},
+				{
+					"name" : "TOUT[1]",
+					"strict" : false
+				},
+				{
+					"name" : "TOUT[2]",
+					"strict" : false
+				},
+				{
+					"name" : "TOUT[3]",
+					"strict" : false
+				},
+				{
+					"name" : "TOUT[4]",
+					"strict" : false
+				},
+				{
+					"name" : "TOUT[5]",
+					"strict" : false
+				},
+				{
+					"name" : "TOUT[6]",
+					"strict" : false
+				},
+				{
+					"name" : "TOUT[7]",
+					"strict" : false
+				},
+				{
+					"name" : "OV",
+					"strict" : false
+				},
+				{
+					"name" : "NIN[0]",
+					"strict" : false
+				},
+				{
+					"name" : "NIN[1]",
+					"strict" : false
+				},
+				{
+					"name" : "NIN[7]",
+					"strict" : false
+				},
+				{
+					"name" : "NIN[2]",
+					"strict" : false
+				},
+				{
+					"name" : "NIN[3]",
+					"strict" : false
+				},
+				{
+					"name" : "NIN[4]",
+					"strict" : false
+				},
+				{
+					"name" : "NIN[5]",
+					"strict" : false
+				},
+				{
+					"name" : "NIN[6]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

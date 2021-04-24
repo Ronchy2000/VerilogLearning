@@ -1,0 +1,73 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dH:/EDATools/MyWorkShop/Chapter3/practice/complementer/simulation/qsim
+vcomplementer
+Z1 !s110 1619234384
+!i10b 1
+!s100 eR:UWzH^GD?nBfY8:4SzQ1
+IJY3SXf`lk;G8FXX=YD3g]1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1619234383
+Z4 8complementer.vo
+Z5 Fcomplementer.vo
+L0 32
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1619234384.000000
+Z8 !s107 complementer.vo|
+Z9 !s90 -work|work|complementer.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vcomplementer_vlg_vec_tst
+R1
+!i10b 1
+!s100 YMP:K]ZEao7^`ZHIgN=3N0
+Ib8A42TzF54=d;d6RF390=0
+R2
+R0
+R3
+8complementer.vwf.vt
+Fcomplementer.vwf.vt
+L0 30
+R6
+r1
+!s85 0
+31
+R7
+!s107 complementer.vwf.vt|
+!s90 -work|work|complementer.vwf.vt|
+!i113 1
+R10
+R11
+vhard_block
+R1
+!i10b 1
+!s100 b_Ma5[?mQBEh:CCHkPoiY3
+IhgkNc>_=;Qij4?a2OMXAd1
+R2
+R0
+R3
+R4
+R5
+L0 890
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11

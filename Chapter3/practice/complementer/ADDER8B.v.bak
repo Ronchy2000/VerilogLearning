@@ -1,0 +1,10 @@
+module ADDER8B(A,B,CIN,COUT,DOUT);
+	output[7:0] DOUT;
+	output COUT;
+	input[7:0] A,B;
+	input CIN;
+	wire[8:0] DATA;
+	assign DATA = A+B +CIN;
+	assign COUT = DATA[8];
+	assign DOUT = DATA[7:0];
+endmodule

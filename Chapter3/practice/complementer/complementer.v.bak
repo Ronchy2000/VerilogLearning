@@ -1,0 +1,4 @@
+module complementer ();
+	input[7:0]	N1;
+	output[7:0]	N2;
+	
