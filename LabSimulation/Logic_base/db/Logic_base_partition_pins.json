@@ -1,0 +1,45 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "and1",
+					"strict" : false
+				},
+				{
+					"name" : "nand1",
+					"strict" : false
+				},
+				{
+					"name" : "or21",
+					"strict" : false
+				},
+				{
+					"name" : "nor21",
+					"strict" : false
+				},
+				{
+					"name" : "not1",
+					"strict" : false
+				},
+				{
+					"name" : "xor1",
+					"strict" : false
+				},
+				{
+					"name" : "xnor1",
+					"strict" : false
+				},
+				{
+					"name" : "A",
+					"strict" : false
+				},
+				{
+					"name" : "B",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

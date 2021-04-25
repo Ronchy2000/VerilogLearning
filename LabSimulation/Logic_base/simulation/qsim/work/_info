@@ -1,0 +1,75 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dH:/EDATools/MyWorkShop/LabSimulation/Logic_base/simulation/qsim
+vhard_block
+Z1 !s110 1619351150
+!i10b 1
+!s100 ]zDfWh_]gZ@6;_m[Fh`F12
+IX0]BB?^FzB7AlLZS?_J3g3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1619351144
+Z4 8Logic_base.vo
+Z5 FLogic_base.vo
+L0 272
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1619351149.000000
+Z8 !s107 Logic_base.vo|
+Z9 !s90 -work|work|Logic_base.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vLogic_base
+R1
+!i10b 1
+!s100 iV<LZeZMBP^3T91A[^JDE0
+ImZzR002?XTRLDT1OMkAlV0
+R2
+R0
+R3
+R4
+R5
+L0 32
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@logic_base
+vLogic_base_vlg_vec_tst
+R1
+!i10b 1
+!s100 fBX:DYZ?A3ZmaGnO6<kjP2
+IDz[:XDC6>2jIK;G@T9kNi2
+R2
+R0
+w1619351143
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 30
+R6
+r1
+!s85 0
+31
+!s108 1619351150.000000
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R10
+R11
+n@logic_base_vlg_vec_tst

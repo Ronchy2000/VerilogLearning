@@ -1,0 +1,23 @@
+|Logic_base
+and1 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst1.IN0
+A => inst2.IN0
+A => inst3.IN0
+A => inst4.IN0
+A => inst5.IN1
+A => inst6.IN1
+B => inst.IN1
+B => inst1.IN1
+B => inst2.IN1
+B => inst3.IN1
+B => inst5.IN0
+B => inst6.IN0
+nand1 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+or21 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+nor21 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+not1 <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+xor1 <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+xnor1 <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+
+
