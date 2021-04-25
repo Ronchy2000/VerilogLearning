@@ -1,0 +1,73 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dH:/EDATools/MyWorkShop/Chapter3/practice/converter/simulation/qsim
+vconverter
+Z1 !s110 1619270772
+!i10b 1
+!s100 Q4=T4f=?_0`<PV4QIC:We1
+IcAm;K1427b1e?fb>P]AbB0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1619270771
+Z4 8converter.vo
+Z5 Fconverter.vo
+L0 32
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1619270772.000000
+Z8 !s107 converter.vo|
+Z9 !s90 -work|work|converter.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vconverter_vlg_vec_tst
+R1
+!i10b 1
+!s100 aEQ]J[z>B8nW6n051=X623
+I0CoI_`HOHljz1CF;GcLCB0
+R2
+R0
+w1619270770
+8converter.vwf.vt
+Fconverter.vwf.vt
+L0 30
+R6
+r1
+!s85 0
+31
+R7
+!s107 converter.vwf.vt|
+!s90 -work|work|converter.vwf.vt|
+!i113 1
+R10
+R11
+vhard_block
+R1
+!i10b 1
+!s100 `J<ilTO?]XKa<BZH@@BaO0
+I3EU>6f?zW<N4B]U1GfXR[3
+R2
+R0
+R3
+R4
+R5
+L0 286
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11

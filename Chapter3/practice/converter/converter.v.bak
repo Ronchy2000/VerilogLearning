@@ -1,0 +1,43 @@
+module converter (
+    NIN,NOUT,SGN
+);
+    input[4:0] NIN;
+    output[2:0] NOUT;
+    output SGN;
+
+    reg[2:0] NOUT;
+    reg SGN = 0;
+    always @(NIN) begin
+        else if(NIN == 4'b0000)
+            NOUT = 4'b0000;
+
+        else if(NIN == 4'b0001)
+            NOUT = 4'b0001;
+
+        else if(NIN == 4'b0011)
+            NOUT = 4'b0010;
+
+        else if(NIN == 4'b0010)
+            NOUT = 4'b0011;
+
+        else if(NIN == 4'b0110)
+            NOUT = 4'b0100;
+
+        else if(NIN == 4'b0111)
+            NOUT = 4'b0101;
+
+        else if(NIN == 4'b0101)
+            NOUT = 4'b0110;
+
+        else if(NIN == 4'b0100)
+            NOUT = 4'b0111;
+            
+        else if(NIN == 4'bs1100)
+            NOUT = 4'b1000;
+        else
+        begin
+            NOUT = 4'b0000;
+            SGN = 1 ;
+        end
+    end
+endmodule

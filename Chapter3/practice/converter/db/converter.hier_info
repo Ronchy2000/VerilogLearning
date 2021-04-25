@@ -1,0 +1,44 @@
+|converter
+NIN[0] => Equal0.IN3
+NIN[0] => Equal1.IN0
+NIN[0] => Equal2.IN1
+NIN[0] => Equal3.IN3
+NIN[0] => Equal4.IN3
+NIN[0] => Equal5.IN2
+NIN[0] => Equal6.IN1
+NIN[0] => Equal7.IN3
+NIN[0] => Equal8.IN3
+NIN[1] => Equal0.IN2
+NIN[1] => Equal1.IN3
+NIN[1] => Equal2.IN0
+NIN[1] => Equal3.IN0
+NIN[1] => Equal4.IN1
+NIN[1] => Equal5.IN1
+NIN[1] => Equal6.IN3
+NIN[1] => Equal7.IN2
+NIN[1] => Equal8.IN2
+NIN[2] => Equal0.IN1
+NIN[2] => Equal1.IN2
+NIN[2] => Equal2.IN3
+NIN[2] => Equal3.IN2
+NIN[2] => Equal4.IN0
+NIN[2] => Equal5.IN0
+NIN[2] => Equal6.IN0
+NIN[2] => Equal7.IN0
+NIN[2] => Equal8.IN1
+NIN[3] => Equal0.IN0
+NIN[3] => Equal1.IN1
+NIN[3] => Equal2.IN2
+NIN[3] => Equal3.IN1
+NIN[3] => Equal4.IN2
+NIN[3] => Equal5.IN3
+NIN[3] => Equal6.IN2
+NIN[3] => Equal7.IN1
+NIN[3] => Equal8.IN0
+NOUT[0] <= NOUT.DB_MAX_OUTPUT_PORT_TYPE
+NOUT[1] <= NOUT.DB_MAX_OUTPUT_PORT_TYPE
+NOUT[2] <= NOUT.DB_MAX_OUTPUT_PORT_TYPE
+NOUT[3] <= NOUT.DB_MAX_OUTPUT_PORT_TYPE
+SGN <= SGN.DB_MAX_OUTPUT_PORT_TYPE
+
+
