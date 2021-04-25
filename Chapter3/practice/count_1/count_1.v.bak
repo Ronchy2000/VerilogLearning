@@ -1,0 +1,14 @@
+module count_1 (
+    NIN,COUNT
+);
+    input[7:0] NIN;
+    output[3:0] COUNT;
+    
+    integer i;
+    always @(NIN) begin
+    for(i=0 ; i < 8 ;i++)begin
+        if(NIN[i] == 1)
+            COUNT = COUNT+1;
+    end
+    end
+endmodule

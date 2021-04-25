@@ -1,0 +1,73 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dH:/EDATools/MyWorkShop/Chapter3/practice/count_1/simulation/qsim
+vcount_1
+Z1 !s110 1619360976
+!i10b 1
+!s100 NS[Cm6JQzbH:DeRcA`^`@0
+I5BHkZL=2No8M9B^4L>`^k1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1619360975
+Z4 8count_1.vo
+Z5 Fcount_1.vo
+L0 32
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1619360976.000000
+Z8 !s107 count_1.vo|
+Z9 !s90 -work|work|count_1.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vcount_1_vlg_vec_tst
+R1
+!i10b 1
+!s100 3fzz5X@BC@hG]KaC8Xd;13
+I;k5oU3ddj@mI6??iWP]C:3
+R2
+R0
+w1619360974
+8count_1.vwf.vt
+Fcount_1.vwf.vt
+L0 30
+R6
+r1
+!s85 0
+31
+R7
+!s107 count_1.vwf.vt|
+!s90 -work|work|count_1.vwf.vt|
+!i113 1
+R10
+R11
+vhard_block
+R1
+!i10b 1
+!s100 m<^m]>BU[zS3gK@`Jc75:2
+I3BjS2Pol3zAZ4<ah:UeLL3
+R2
+R0
+R3
+R4
+R5
+L0 424
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
