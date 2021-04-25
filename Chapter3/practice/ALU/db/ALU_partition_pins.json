@@ -1,0 +1,81 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "NOUT[0]",
+					"strict" : false
+				},
+				{
+					"name" : "NOUT[1]",
+					"strict" : false
+				},
+				{
+					"name" : "NOUT[2]",
+					"strict" : false
+				},
+				{
+					"name" : "NOUT[3]",
+					"strict" : false
+				},
+				{
+					"name" : "NOUT[4]",
+					"strict" : false
+				},
+				{
+					"name" : "NOUT[5]",
+					"strict" : false
+				},
+				{
+					"name" : "NOUT[6]",
+					"strict" : false
+				},
+				{
+					"name" : "NOUT[7]",
+					"strict" : false
+				},
+				{
+					"name" : "OP[0]",
+					"strict" : false
+				},
+				{
+					"name" : "OP[1]",
+					"strict" : false
+				},
+				{
+					"name" : "NIN2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "NIN2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "NIN2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "NIN2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "NIN1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "NIN1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "NIN1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "NIN1[3]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
