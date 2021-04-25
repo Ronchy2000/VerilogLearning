@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dH:/EDATools/MyWorkShop/Chapter3/practice/count1_2/simulation/qsim
+vcount1_2
+Z1 !s110 1619360767
+!i10b 1
+!s100 4XPZJP3F<Gf^>]?665UYI0
+I>1;MI?0`0bJgC>S^7PcB72
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1619360766
+8count1_2.vo
+Fcount1_2.vo
+L0 32
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1619360767.000000
+!s107 count1_2.vo|
+!s90 -work|work|count1_2.vo|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vcount1_2_vlg_vec_tst
+R1
+!i10b 1
+!s100 XInD;^U7LF`COBNG>8;d31
+Im<H`cPkXY0>K`>o;dh=_^1
+R2
+R0
+w1619360764
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 30
+R3
+r1
+!s85 0
+31
+R4
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R5
+R6
