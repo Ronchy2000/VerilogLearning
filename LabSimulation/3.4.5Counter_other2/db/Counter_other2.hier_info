@@ -1,0 +1,23 @@
+|Counter_other2
+clk => cout~reg0.CLK
+clk => count[0].CLK
+clk => count[1].CLK
+clk => count[2].CLK
+clk => count[3].CLK
+clr => count[0].ACLR
+clr => count[1].ACLR
+clr => count[2].ACLR
+clr => count[3].ACLR
+clr => cout~reg0.ENA
+en => cout.OUTPUTSELECT
+en => count[3].ENA
+en => count[2].ENA
+en => count[1].ENA
+en => count[0].ENA
+Q[0] <= Q.DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= Q.DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= Q.DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= count[3].DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

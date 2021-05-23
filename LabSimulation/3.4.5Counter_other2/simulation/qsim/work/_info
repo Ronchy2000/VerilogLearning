@@ -1,0 +1,75 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dH:/EDATools/MyWorkShop/LabSimulation/3.4.5Counter_other2/simulation/qsim
+vCounter_other2
+Z1 !s110 1621754132
+!i10b 1
+!s100 EBYi9T;A6d89K;zVUZK3S1
+InJ_aWYfPI3NhYgEnWeXcD0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1621754131
+Z4 8Counter_other2.vo
+Z5 FCounter_other2.vo
+L0 32
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1621754132.000000
+Z8 !s107 Counter_other2.vo|
+Z9 !s90 -work|work|Counter_other2.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+n@counter_other2
+vCounter_other2_vlg_vec_tst
+R1
+!i10b 1
+!s100 GenP1h79im=N4c>8Cin?D3
+I7[PeFMz`Z=0Y2@7=B[Amj3
+R2
+R0
+w1621754130
+8Counter_other2.vwf.vt
+FCounter_other2.vwf.vt
+L0 30
+R6
+r1
+!s85 0
+31
+R7
+!s107 Counter_other2.vwf.vt|
+!s90 -work|work|Counter_other2.vwf.vt|
+!i113 1
+R10
+R11
+n@counter_other2_vlg_vec_tst
+vhard_block
+R1
+!i10b 1
+!s100 XB?VQ2i^B3:A:QP_SbGTI3
+I2OgTT5N5aK;m5IV<`Hd`]0
+R2
+R0
+R3
+R4
+R5
+L0 475
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11

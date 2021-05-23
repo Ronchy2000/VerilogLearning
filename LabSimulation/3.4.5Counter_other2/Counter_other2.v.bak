@@ -1,0 +1,18 @@
+module Counter_other2 (
+    clk,clr,en,Q,cout
+);
+    //用二进制码来计数，转换为格雷码输出
+    input clk,clr,en;
+    output reg[3:0] Q;
+    output cout;
+    reg[3:0] count;
+always @(posedge clk,negedge clr) begin
+    Q = count; //看内部计数的值
+    if(clr == 0) count =0;。
+    else if(en)
+        if(count <= 4'b1010)
+            count = count +1;
+        else
+            count = 0;
+end
+endmodule
