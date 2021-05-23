@@ -1,0 +1,75 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dH:/EDATools/MyWorkShop/LabSimulation/3.4.3Counter_BCD/simulation/qsim
+vCounter_BCD
+Z1 !s110 1621750393
+!i10b 1
+!s100 ^CC4O<_08bPo;]>Vbz]T]2
+IzHzWkN269PQ1[m16c10JP3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1621750392
+Z4 8Counter_BCD.vo
+Z5 FCounter_BCD.vo
+L0 32
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1621750393.000000
+Z8 !s107 Counter_BCD.vo|
+Z9 !s90 -work|work|Counter_BCD.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+n@counter_@b@c@d
+vCounter_BCD_vlg_vec_tst
+R1
+!i10b 1
+!s100 o=:;CZ`;Vb3j6K@VGNfkG2
+II^1jeh]VEBoK1E4Qo;C>J3
+R2
+R0
+w1621750391
+8Counter_BCD.vwf.vt
+FCounter_BCD.vwf.vt
+L0 30
+R6
+r1
+!s85 0
+31
+R7
+!s107 Counter_BCD.vwf.vt|
+!s90 -work|work|Counter_BCD.vwf.vt|
+!i113 1
+R10
+R11
+n@counter_@b@c@d_vlg_vec_tst
+vhard_block
+R1
+!i10b 1
+!s100 KZaX14Sj2j2A?34NZSM?42
+IGMP3@aUUV[8KN5gLS?;[k2
+R2
+R0
+R3
+R4
+R5
+L0 688
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11

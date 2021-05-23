@@ -1,0 +1,24 @@
+module Counter_BCD (
+    ports
+);//BCD码，每一位不能超过9
+    input clk,clr,en;
+    output reg cout;
+    output reg[7:0] Q;
+    reg[7:0] count;
+
+always @(posedge clk,negedge clr) begin
+    Q = count;
+    if(clr == 0) count=8h'00;
+    else if(en==1) begin
+        if(count==8'h63)  //计数范围 D:99
+            count = 0;
+        else if(count[3:0]<4'd9) count[3:0] = count[3:0]+1'b1;
+        else if(count[7:4]<4'd9)begin
+            count[7:4] = count[7:4] + 1'b1;
+            count[3:0] = 4'b0000;
+        end
+        if(cout==8'h63) cout = 1'b1;
+        else cout=0;
+    end
+end
+endmodule

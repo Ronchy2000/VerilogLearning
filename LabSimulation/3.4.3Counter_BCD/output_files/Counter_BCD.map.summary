@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Sun May 23 14:11:51 2021
+Quartus Prime Version : 19.1.0 Build 670 09/22/2019 SJ Lite Edition
+Revision Name : Counter_BCD
+Top-level Entity Name : Counter_BCD
+Family : Cyclone IV E
+Total logic elements : 13
+    Total combinational functions : 13
+    Dedicated logic registers : 6
+Total registers : 6
+Total pins : 12
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
