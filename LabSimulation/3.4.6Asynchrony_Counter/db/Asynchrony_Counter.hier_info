@@ -1,0 +1,9 @@
+|Asynchrony_Counter
+clk => nq~reg0.CLK
+clk => q~reg0.CLK
+clk => qb.CLK
+d => qb.DATAIN
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+nq <= nq~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
