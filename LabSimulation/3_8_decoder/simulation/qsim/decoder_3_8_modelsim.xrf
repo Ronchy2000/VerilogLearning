@@ -1,0 +1,17 @@
+vendor_name = ModelSim
+source_file = 1, H:/EDATools/MyWorkShop/LabSimulation/traffic_Monitor/decoder_3_8.v
+source_file = 1, H:/EDATools/MyWorkShop/LabSimulation/traffic_Monitor/Waveform.vwf
+source_file = 1, H:/EDATools/MyWorkShop/LabSimulation/traffic_Monitor/traffic_Monitor.bdf
+source_file = 1, H:/EDATools/MyWorkShop/LabSimulation/traffic_Monitor/traffic_Monitor.vwf
+source_file = 1, H:/EDATools/MyWorkShop/LabSimulation/traffic_Monitor/db/decoder_3_8.cbx.xml
+design_name = traffic_Monitor
+instance = comp, \L~output , L~output, traffic_Monitor, 1
+instance = comp, \CIN~input , CIN~input, traffic_Monitor, 1
+instance = comp, \AIN~input , AIN~input, traffic_Monitor, 1
+instance = comp, \BIN~input , BIN~input, traffic_Monitor, 1
+instance = comp, \EN~input , EN~input, traffic_Monitor, 1
+instance = comp, \inst1~0 , inst1~0, traffic_Monitor, 1
+design_name = hard_block
+instance = comp, \~ALTERA_ASDO_DATA1~~ibuf , ~ALTERA_ASDO_DATA1~~ibuf, hard_block, 1
+instance = comp, \~ALTERA_FLASH_nCE_nCSO~~ibuf , ~ALTERA_FLASH_nCE_nCSO~~ibuf, hard_block, 1
+instance = comp, \~ALTERA_DATA0~~ibuf , ~ALTERA_DATA0~~ibuf, hard_block, 1

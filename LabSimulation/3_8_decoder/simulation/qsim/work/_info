@@ -1,0 +1,117 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dH:/EDATools/MyWorkShop/LabSimulation/3_8_decoder/simulation/qsim
+vdecoder_3_8
+Z1 !s110 1620626894
+!i10b 1
+!s100 nnI@h>9>:bHj^dMLQ<SXV2
+I[7AzP2ofQDHij2l5RB9;Z3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1620626888
+Z3 8decoder_3_8.vo
+Z4 Fdecoder_3_8.vo
+Z5 L0 32
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1620626893.000000
+Z7 !s107 decoder_3_8.vo|
+Z8 !s90 -work|work|decoder_3_8.vo|
+!i113 1
+Z9 o-work work
+Z10 tCvgOpt 0
+vdecoder_3_8_vlg_vec_tst
+R1
+!i10b 1
+!s100 dPAYI^4HeC`BX<9h7]NJn2
+I:hdGILj8OWn[1_6T^nWWA3
+R2
+R0
+w1620626887
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+Z11 L0 30
+R6
+r1
+!s85 0
+31
+!s108 1620626894.000000
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R9
+R10
+vhard_block
+Z12 !s110 1620629579
+!i10b 1
+!s100 3@IJ6d`R]9=AS<GPKCe:<0
+I^9B>Q2jR=Kd[8`[CeQ^<?0
+R2
+R0
+Z13 w1620629577
+R3
+R4
+L0 150
+R6
+r1
+!s85 0
+31
+Z14 !s108 1620629579.000000
+R7
+R8
+!i113 1
+R9
+R10
+vtraffic_Monitor
+R12
+!i10b 1
+!s100 P@aYc<z?808955ginnfR71
+I`kOn9D5TeUaP@843:MnOk3
+R2
+R0
+R13
+R3
+R4
+R5
+R6
+r1
+!s85 0
+31
+R14
+R7
+R8
+!i113 1
+R9
+R10
+ntraffic_@monitor
+vtraffic_Monitor_vlg_vec_tst
+R12
+!i10b 1
+!s100 GO1EKPHn;6mYnI@Qmnafc1
+I:00<4BC?ZmP7OSo`MA2WR2
+R2
+R0
+w1620629576
+8traffic_Monitor.vwf.vt
+Ftraffic_Monitor.vwf.vt
+R11
+R6
+r1
+!s85 0
+31
+R14
+!s107 traffic_Monitor.vwf.vt|
+!s90 -work|work|traffic_Monitor.vwf.vt|
+!i113 1
+R9
+R10
+ntraffic_@monitor_vlg_vec_tst
