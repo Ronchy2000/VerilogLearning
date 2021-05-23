@@ -1,0 +1,26 @@
+|Counter_other
+clk => count~1.DATAIN
+clr => count~3.DATAIN
+en => count.OUTPUTSELECT
+en => count.OUTPUTSELECT
+en => count.OUTPUTSELECT
+en => count.OUTPUTSELECT
+en => count.OUTPUTSELECT
+en => count.OUTPUTSELECT
+en => count.OUTPUTSELECT
+en => count.OUTPUTSELECT
+en => count.OUTPUTSELECT
+en => count.OUTPUTSELECT
+en => count.OUTPUTSELECT
+en => count.OUTPUTSELECT
+en => count.OUTPUTSELECT
+en => count.OUTPUTSELECT
+en => count.OUTPUTSELECT
+en => count.OUTPUTSELECT
+Q[0] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
