@@ -1,0 +1,75 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dH:/EDATools/MyWorkShop/LabSimulation/3.4.1Counter/simulation/qsim
+vCounter341
+Z1 !s110 1621260219
+!i10b 1
+!s100 VEj9HDn_J28M3ALR_K6Sn0
+I9Sokm3FUYKl<H:2VHdMCD2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1621260218
+Z4 8Counter341.vo
+Z5 FCounter341.vo
+L0 32
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1621260219.000000
+Z8 !s107 Counter341.vo|
+Z9 !s90 -work|work|Counter341.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+n@counter341
+vCounter341_vlg_vec_tst
+R1
+!i10b 1
+!s100 :0>J1SWd2WGPenkR7JANd2
+IzJ^AZA]Fz?iIz[eP2=4<Q0
+R2
+R0
+w1621260217
+8Counter341.vwf.vt
+FCounter341.vwf.vt
+L0 30
+R6
+r1
+!s85 0
+31
+R7
+!s107 Counter341.vwf.vt|
+!s90 -work|work|Counter341.vwf.vt|
+!i113 1
+R10
+R11
+n@counter341_vlg_vec_tst
+vhard_block
+R1
+!i10b 1
+!s100 cWYn?SUQlJlO=7C3?@PU41
+I=;_@0Q_gaScXPYRBb37Ho1
+R2
+R0
+R3
+R4
+R5
+L0 401
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11

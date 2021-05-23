@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at Counter342.v(6): always construct contains both blocking and non-blocking assignments File: H:/EDATools/MyWorkShop/LabSimulation/3.4.2Counter/Counter342.v Line: 6

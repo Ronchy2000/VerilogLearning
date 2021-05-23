@@ -1,0 +1,16 @@
+module Counter341(input clk,clr,en,output reg[3:0]Q,
+	output count);
+	reg [3:0] count;
+	always@(posedge clk or negedge clr)
+	begin
+		Q<=count;
+		if(clr==0) count<=4'b0000;
+			else if(en==1)
+			begin
+		       count<=count+1;
+				  if(count==4'b1111)
+				     count<=4'b0000;
+	     end
+		  end
+		 assign cont=(count==4'b1111)?1:0;
+endmodule

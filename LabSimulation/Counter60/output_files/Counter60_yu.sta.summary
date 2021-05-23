@@ -1,0 +1,113 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'CLK50MHZ'
+Slack : -5.524
+TNS   : -130.959
+
+Type  : Slow 1200mV 85C Model Setup 'CNT24B:inst1|count[17]'
+Slack : -2.519
+TNS   : -5.156
+
+Type  : Slow 1200mV 85C Model Setup 'Keyin:inst2|keyout'
+Slack : -2.038
+TNS   : -17.369
+
+Type  : Slow 1200mV 85C Model Hold 'CNT24B:inst1|count[17]'
+Slack : 0.453
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'Keyin:inst2|keyout'
+Slack : 0.453
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'CLK50MHZ'
+Slack : 1.125
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'CLK50MHZ'
+Slack : -3.000
+TNS   : -38.688
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Keyin:inst2|keyout'
+Slack : -1.487
+TNS   : -13.383
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'CNT24B:inst1|count[17]'
+Slack : -1.487
+TNS   : -10.409
+
+Type  : Slow 1200mV 0C Model Setup 'CLK50MHZ'
+Slack : -5.050
+TNS   : -119.533
+
+Type  : Slow 1200mV 0C Model Setup 'CNT24B:inst1|count[17]'
+Slack : -2.309
+TNS   : -4.308
+
+Type  : Slow 1200mV 0C Model Setup 'Keyin:inst2|keyout'
+Slack : -1.791
+TNS   : -15.194
+
+Type  : Slow 1200mV 0C Model Hold 'CNT24B:inst1|count[17]'
+Slack : 0.401
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'Keyin:inst2|keyout'
+Slack : 0.402
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'CLK50MHZ'
+Slack : 1.003
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'CLK50MHZ'
+Slack : -3.000
+TNS   : -38.688
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Keyin:inst2|keyout'
+Slack : -1.487
+TNS   : -13.383
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'CNT24B:inst1|count[17]'
+Slack : -1.487
+TNS   : -10.661
+
+Type  : Fast 1200mV 0C Model Setup 'CLK50MHZ'
+Slack : -2.086
+TNS   : -44.614
+
+Type  : Fast 1200mV 0C Model Setup 'CNT24B:inst1|count[17]'
+Slack : -0.571
+TNS   : -0.571
+
+Type  : Fast 1200mV 0C Model Setup 'Keyin:inst2|keyout'
+Slack : -0.334
+TNS   : -2.266
+
+Type  : Fast 1200mV 0C Model Hold 'Keyin:inst2|keyout'
+Slack : 0.186
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'CNT24B:inst1|count[17]'
+Slack : 0.187
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'CLK50MHZ'
+Slack : 0.322
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'CLK50MHZ'
+Slack : -3.000
+TNS   : -28.576
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Keyin:inst2|keyout'
+Slack : -1.000
+TNS   : -9.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'CNT24B:inst1|count[17]'
+Slack : -1.000
+TNS   : -7.000
+
+------------------------------------------------------------

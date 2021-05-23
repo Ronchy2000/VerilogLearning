@@ -1,0 +1,23 @@
+|Counter342
+clk => COUT~reg0.CLK
+clk => cnt[0].CLK
+clk => cnt[1].CLK
+clk => cnt[2].CLK
+clk => cnt[3].CLK
+clr => cnt[0].ACLR
+clr => cnt[1].ACLR
+clr => cnt[2].ACLR
+clr => cnt[3].ACLR
+clr => COUT~reg0.ENA
+en => COUT.OUTPUTSELECT
+en => cnt[3].ENA
+en => cnt[2].ENA
+en => cnt[1].ENA
+en => cnt[0].ENA
+Q[0] <= cnt[0].DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= cnt[1].DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= cnt[2].DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= cnt[3].DB_MAX_OUTPUT_PORT_TYPE
+COUT <= COUT~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
