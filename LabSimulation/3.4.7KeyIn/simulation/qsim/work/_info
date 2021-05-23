@@ -1,0 +1,75 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dH:/EDATools/MyWorkShop/LabSimulation/3.4.7KeyIn/simulation/qsim
+vhard_block
+Z1 !s110 1621758956
+!i10b 1
+!s100 bzLS5dkNIE34fKoVjbfOQ1
+I^mVWLO<ni0cDze1K]7PGX0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1621758955
+Z4 8KeyIn.vo
+Z5 FKeyIn.vo
+L0 526
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1621758956.000000
+Z8 !s107 KeyIn.vo|
+Z9 !s90 -work|work|KeyIn.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vKeyIn
+R1
+!i10b 1
+!s100 D7oj:5CPVJ1_O]hoNZKJ]1
+IIcl<3nXC0:geH`GIYlJZN0
+R2
+R0
+R3
+R4
+R5
+L0 32
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@key@in
+vKeyIn_vlg_vec_tst
+R1
+!i10b 1
+!s100 N;oH2jj1`GGNOJ4JZYS;]3
+I0FOU^0O0R1zW2nL4RLH4Y2
+R2
+R0
+R3
+8KeyIn.vwf.vt
+FKeyIn.vwf.vt
+L0 30
+R6
+r1
+!s85 0
+31
+R7
+!s107 KeyIn.vwf.vt|
+!s90 -work|work|KeyIn.vwf.vt|
+!i113 1
+R10
+R11
+n@key@in_vlg_vec_tst
