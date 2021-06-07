@@ -1,0 +1,6 @@
+
+State Machine - |FSM_demo3|state
+Name state.00 state.s2 state.s1 
+state.00 0 0 0 
+state.s1 1 0 1 
+state.s2 1 1 0 
