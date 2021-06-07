@@ -1,0 +1,18 @@
+module Divider_baseOnAdder (
+    clk,f_w,f_out
+);
+    parameter n = 8;
+    input clk;
+    input[n-1:0] f_w;
+    output reg f_out;
+
+    reg[n-1:0] f_word;
+    reg[n-1:0] acc = 0;
+always @(posedge clk ) begin
+    acc <= acc + f_word;
+    f_out <= acc[n-1];
+end
+always @(posedge clk ) begin
+    f_word <= f_w;
+end
+endmodule

@@ -1,0 +1,27 @@
+module Divider_numericalControl (
+    clkin,clkout
+);
+    input clkin;
+    input[n-1:0] d;
+    output clkout;
+    parameter n = 8;
+    reg carry,tbuff;
+    reg [n-1:0] cnt;
+always @(posedge clkin) begin
+    if(cnt>=2*n-1)
+    begin
+        cnt <= d;
+        carry <= 1;
+    end
+    else
+    begin
+        cnt<=cnt+1;
+        carry <= 0; 
+    end
+end
+
+always @(negedge carry ) begin
+    tbuff <= ~tbuff;
+end
+assign clkout = tbuff;
+endmodule

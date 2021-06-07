@@ -1,0 +1,75 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dH:/EDATools/MyWorkShop/LabSimulation/Frequency_divider/Divider_numericalControl/simulation/qsim
+vDivider_numericalControl
+Z1 !s110 1622441860
+!i10b 1
+!s100 fAEUJCC8G]8DG^aegGV`O2
+IK=baQORR[0zbWazRzdZHd2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1622441859
+Z4 8Divider_numericalControl.vo
+Z5 FDivider_numericalControl.vo
+L0 32
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1622441860.000000
+Z8 !s107 Divider_numericalControl.vo|
+Z9 !s90 -work|work|Divider_numericalControl.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+n@divider_numerical@control
+vDivider_numericalControl_vlg_vec_tst
+R1
+!i10b 1
+!s100 62@iK?QFPl>nAajZnjGb81
+ILz1aBlJ_EY=<TF>l5[^M_1
+R2
+R0
+w1622441858
+8Divider_numericalControl.vwf.vt
+FDivider_numericalControl.vwf.vt
+L0 30
+R6
+r1
+!s85 0
+31
+R7
+!s107 Divider_numericalControl.vwf.vt|
+!s90 -work|work|Divider_numericalControl.vwf.vt|
+!i113 1
+R10
+R11
+n@divider_numerical@control_vlg_vec_tst
+vhard_block
+R1
+!i10b 1
+!s100 FY^?6;M3n[C[_8oFcYk_?0
+I;`3LLC^OoL89]6<W>IA>T0
+R2
+R0
+R3
+R4
+R5
+L0 643
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11

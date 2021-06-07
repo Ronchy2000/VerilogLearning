@@ -1,0 +1,17 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "clkout",
+					"strict" : false
+				},
+				{
+					"name" : "clkin",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

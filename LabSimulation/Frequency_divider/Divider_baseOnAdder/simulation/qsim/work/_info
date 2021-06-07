@@ -1,0 +1,75 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dH:/EDATools/MyWorkShop/LabSimulation/Frequency_divider/Divider_baseOnAdder/simulation/qsim
+vDivider_baseOnAdder
+Z1 !s110 1622443966
+!i10b 1
+!s100 1bSlBzHdY`b@`N66gT8aZ2
+I@=dkla8oV6z6>gnCcJ>IZ0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1622443965
+Z4 8Divider_baseOnAdder.vo
+Z5 FDivider_baseOnAdder.vo
+L0 32
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1622443966.000000
+Z8 !s107 Divider_baseOnAdder.vo|
+Z9 !s90 -work|work|Divider_baseOnAdder.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+n@divider_base@on@adder
+vDivider_baseOnAdder_vlg_vec_tst
+R1
+!i10b 1
+!s100 G=gdD2R6JAV<`?kj=nZ2V1
+IOBdC8=>fFDXJgd7LAjP_o1
+R2
+R0
+w1622443964
+8Divider_baseOnAdder.vwf.vt
+FDivider_baseOnAdder.vwf.vt
+L0 30
+R6
+r1
+!s85 0
+31
+R7
+!s107 Divider_baseOnAdder.vwf.vt|
+!s90 -work|work|Divider_baseOnAdder.vwf.vt|
+!i113 1
+R10
+R11
+n@divider_base@on@adder_vlg_vec_tst
+vhard_block
+R1
+!i10b 1
+!s100 fB0f=UzGc85hKMjlzW@CN1
+I;Jhf9j8njVS:R6_W[Aom50
+R2
+R0
+R3
+R4
+R5
+L0 758
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11

@@ -1,0 +1,24 @@
+module Divider_odd (
+    clkin,clkout,clk_aout,clk_bout
+);
+    input clkin;
+    output clkout,clk_aout,clk_bout;
+    parameter n = 5;
+    parameter m = 3;
+    reg [m:0] cnta,cntb;
+    reg clk_aout,clk_bout;
+always @(posedge clkin) begin
+    if(cnta>n) cnta<=0;
+    else cnta=cnta + 1'b1;
+    if(cnta < n/2) clk_aout = 1;
+    else clk_aout = 0;
+end
+
+always @(negedge clkin) begin
+    if(cntb>n) cntb<=0;
+    else cntb=cntb + 1'b1;
+    if(cntb < n/2) clk_bout = 1;
+    else clk_bout = 0;
+end
+assign clkout = clk_aout | clk_bout;
+endmodule 

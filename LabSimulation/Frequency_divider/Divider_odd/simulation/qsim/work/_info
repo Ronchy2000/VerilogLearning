@@ -1,0 +1,75 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dH:/EDATools/MyWorkShop/LabSimulation/Frequency_divider/Divider_odd/simulation/qsim
+vDivider_odd
+Z1 !s110 1622439187
+!i10b 1
+!s100 `2mMZoE57[5GaZ[:26X[i3
+IzLS_Z]]=YT>_anEeDk6>62
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1622439186
+Z4 8Divider_odd.vo
+Z5 FDivider_odd.vo
+L0 32
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1622439187.000000
+Z8 !s107 Divider_odd.vo|
+Z9 !s90 -work|work|Divider_odd.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+n@divider_odd
+vDivider_odd_vlg_vec_tst
+R1
+!i10b 1
+!s100 QABIbi:@:44096_cJ[6a:2
+IXk2DN:1G@AbhAelAo[`>h0
+R2
+R0
+w1622439185
+8Divider_odd.vwf.vt
+FDivider_odd.vwf.vt
+L0 30
+R6
+r1
+!s85 0
+31
+R7
+!s107 Divider_odd.vwf.vt|
+!s90 -work|work|Divider_odd.vwf.vt|
+!i113 1
+R10
+R11
+n@divider_odd_vlg_vec_tst
+vhard_block
+R1
+!i10b 1
+!s100 aM1dXg=cW34n8i71GA0=i3
+IV5472CnJ=WCBf]liCd7`n3
+R2
+R0
+R3
+R4
+R5
+L0 464
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11

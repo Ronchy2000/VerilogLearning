@@ -1,0 +1,49 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "f_out",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "f_w[7]",
+					"strict" : false
+				},
+				{
+					"name" : "f_w[6]",
+					"strict" : false
+				},
+				{
+					"name" : "f_w[5]",
+					"strict" : false
+				},
+				{
+					"name" : "f_w[4]",
+					"strict" : false
+				},
+				{
+					"name" : "f_w[3]",
+					"strict" : false
+				},
+				{
+					"name" : "f_w[2]",
+					"strict" : false
+				},
+				{
+					"name" : "f_w[1]",
+					"strict" : false
+				},
+				{
+					"name" : "f_w[0]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

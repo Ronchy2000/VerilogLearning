@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Mon May 31 17:54:50 2021
+Quartus Prime Version : 19.1.0 Build 670 09/22/2019 SJ Lite Edition
+Revision Name : Divider87
+Top-level Entity Name : Divider87
+Family : Cyclone IV E
+Total logic elements : 17
+    Total combinational functions : 17
+    Dedicated logic registers : 9
+Total registers : 9
+Total pins : 3
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

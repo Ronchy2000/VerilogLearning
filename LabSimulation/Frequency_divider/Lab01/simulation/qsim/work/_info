@@ -1,0 +1,75 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dH:/EDATools/MyWorkShop/LabSimulation/Frequency_divider/Lab01/simulation/qsim
+vhard_block
+Z1 !s110 1622444332
+!i10b 1
+!s100 0IYiha6G>2gKWIPS[SEzN0
+I94R?PkTUXV_KYn_U<XzP33
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1622444331
+Z4 8Lab01.vo
+Z5 FLab01.vo
+L0 534
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1622444331.000000
+Z8 !s107 Lab01.vo|
+Z9 !s90 -work|work|Lab01.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vLab01
+R1
+!i10b 1
+!s100 ;EL?HHZEfVe2MN<bSK]z>2
+I[?RMf@cm@X7CZTZnR19gF3
+R2
+R0
+R3
+R4
+R5
+L0 32
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@lab01
+vLab01_vlg_vec_tst
+R1
+!i10b 1
+!s100 kY><3joo:L:IX]_j?DzV[0
+Iz@IXRaBD7MFL3_30nAPce2
+R2
+R0
+w1622444330
+8Lab01.vwf.vt
+FLab01.vwf.vt
+L0 30
+R6
+r1
+!s85 0
+31
+!s108 1622444332.000000
+!s107 Lab01.vwf.vt|
+!s90 -work|work|Lab01.vwf.vt|
+!i113 1
+R10
+R11
+n@lab01_vlg_vec_tst

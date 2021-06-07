@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at Divider_odd.v(17): always construct contains both blocking and non-blocking assignments File: H:/EDATools/MyWorkShop/LabSimulation/Frequency_divider/Divider_odd/Divider_odd.v Line: 17

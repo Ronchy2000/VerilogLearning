@@ -1,0 +1,21 @@
+|Divider_numericalControl
+clkin => carry.CLK
+clkin => cnt[0].CLK
+clkin => cnt[1].CLK
+clkin => cnt[2].CLK
+clkin => cnt[3].CLK
+clkin => cnt[4].CLK
+clkin => cnt[5].CLK
+clkin => cnt[6].CLK
+clkin => cnt[7].CLK
+clkout <= tbuff.DB_MAX_OUTPUT_PORT_TYPE
+d[0] => cnt.DATAB
+d[1] => cnt.DATAB
+d[2] => cnt.DATAB
+d[3] => cnt.DATAB
+d[4] => cnt.DATAB
+d[5] => cnt.DATAB
+d[6] => cnt.DATAB
+d[7] => cnt.DATAB
+
+

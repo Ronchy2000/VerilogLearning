@@ -1,0 +1,27 @@
+module keyboard (
+    clkin,clkout,d
+);
+	 parameter n = 8;
+    input clkin;
+    input[n-1:0] d;
+    output clkout;
+    reg carry,tbuff;
+    reg [n-1:0] cnt;
+always @(posedge clkin) begin
+    if(cnt>=2**n-1) //please attention **!
+    begin
+        cnt <= d;
+        carry <= 1;
+    end
+    else
+    begin
+        cnt<=cnt+1;
+        carry <= 0; 
+    end
+end
+//D BUFFER
+always @(negedge carry) begin
+    tbuff <= ~tbuff;
+end
+assign clkout = tbuff;
+endmodule

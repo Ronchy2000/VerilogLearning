@@ -1,0 +1,16 @@
+|Lab01
+clkin => clka.CLK
+clkin => cnta[0].CLK
+clkin => cnta[1].CLK
+clkin => cnta[2].CLK
+clkin => cnta[3].CLK
+clkin => clkb.CLK
+clkin => cntb[0].CLK
+clkin => cntb[1].CLK
+clkin => cntb[2].CLK
+clkin => cntb[3].CLK
+clkout << clkout.DB_MAX_OUTPUT_PORT_TYPE
+clk_aout << clka.DB_MAX_OUTPUT_PORT_TYPE
+clk_bout << clkb.DB_MAX_OUTPUT_PORT_TYPE
+
+
