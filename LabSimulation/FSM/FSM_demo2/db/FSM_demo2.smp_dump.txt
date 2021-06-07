@@ -1,0 +1,6 @@
+
+State Machine - |FSM_demo2|current_state
+Name current_state.s0 current_state.s2 current_state.s1 
+current_state.s0 0 0 0 
+current_state.s1 1 0 1 
+current_state.s2 1 1 0 

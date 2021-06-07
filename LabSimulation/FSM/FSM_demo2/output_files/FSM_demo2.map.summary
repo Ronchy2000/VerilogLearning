@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Mon Jun 07 12:52:57 2021
+Quartus Prime Version : 19.1.0 Build 670 09/22/2019 SJ Lite Edition
+Revision Name : FSM_demo2
+Top-level Entity Name : FSM_demo2
+Family : Cyclone IV E
+Total logic elements : 3
+    Total combinational functions : 2
+    Dedicated logic registers : 2
+Total registers : 2
+Total pins : 4
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
