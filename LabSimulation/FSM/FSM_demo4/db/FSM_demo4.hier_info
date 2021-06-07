@@ -1,0 +1,10 @@
+|FSM_demo4
+a => state.DATAB
+a => Selector0.IN1
+a => z.DATAB
+a => state.s0.DATAIN
+clk => state~2.DATAIN
+rst => state~4.DATAIN
+z <= z.DB_MAX_OUTPUT_PORT_TYPE
+
+
