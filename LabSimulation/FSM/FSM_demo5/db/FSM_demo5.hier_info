@@ -1,0 +1,15 @@
+|FSM_demo5
+a => Mux1.IN6
+a => Mux0.IN6
+a => Mux0.IN7
+a => Mux1.IN7
+a => next_state[0].DATAB
+clk => current_state[0].CLK
+clk => current_state[1].CLK
+clk => current_state[2].CLK
+rst => current_state[0].ACLR
+rst => current_state[1].ACLR
+rst => current_state[2].ACLR
+z <= current_state[0].DB_MAX_OUTPUT_PORT_TYPE
+
+

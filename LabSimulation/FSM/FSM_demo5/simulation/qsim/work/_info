@@ -1,0 +1,75 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dH:/EDATools/MyWorkShop/LabSimulation/FSM/FSM_demo5/simulation/qsim
+vFSM_demo5
+Z1 !s110 1623044759
+!i10b 1
+!s100 Kl`9S74eig3YGV_M_h0b`1
+I_hz2VeOOA^niLdO?C[VB?3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1623044758
+Z4 8FSM_demo5.vo
+Z5 FFSM_demo5.vo
+L0 32
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1623044759.000000
+Z8 !s107 FSM_demo5.vo|
+Z9 !s90 -work|work|FSM_demo5.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+n@f@s@m_demo5
+vFSM_demo5_vlg_vec_tst
+R1
+!i10b 1
+!s100 LKD:U977JZ[1VEahf525F3
+I09ci>mi6WgF`kDX;R0Q>G0
+R2
+R0
+w1623044757
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 30
+R6
+r1
+!s85 0
+31
+R7
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R10
+R11
+n@f@s@m_demo5_vlg_vec_tst
+vhard_block
+R1
+!i10b 1
+!s100 8bg1W6ezQBbz<[QoRIlP_0
+In8Y?C6R8_17<lmd=G<7P23
+R2
+R0
+R3
+R4
+R5
+L0 262
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
