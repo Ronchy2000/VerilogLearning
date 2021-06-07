@@ -1,0 +1,19 @@
+module eg371(
+input a,clk,rst, output reg z); 
+reg current state,next state; 
+reg S0,S1,S2; 
+always @(posedge clk,negedge rst)
+begin 
+    if(rst==0)current state<=s0; 
+    else current_state<=next_state; 
+end 
+always @(current_state,a)
+begin 
+    case(current state)
+        S0:begin z<=0;next state<=(a==0)?S0:S1;end
+        S1:begin z<=0;next state<=(a==0)?S0:S2;end
+        S2:begin z<=(a==0)?1:0;next state<=(a==0)?S0:S2;end 
+        default:begin next state<=S0;z<=0;end 
+        endcase 
+end 
+endmodule
