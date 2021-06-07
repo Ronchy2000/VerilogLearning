@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Mon Jun 07 14:57:13 2021
+Quartus Prime Version : 19.1.0 Build 670 09/22/2019 SJ Lite Edition
+Revision Name : SailShop
+Top-level Entity Name : SailShop
+Family : Cyclone IV E
+Total logic elements : 8
+    Total combinational functions : 8
+    Dedicated logic registers : 5
+Total registers : 5
+Total pins : 9
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

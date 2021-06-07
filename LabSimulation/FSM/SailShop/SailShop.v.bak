@@ -1,0 +1,36 @@
+module SailShop(
+   input clk,rst,
+   input  [1:0]a,
+   output reg [4:0] z);
+   reg [4:0] state,n_state;
+   parameter 
+      s0=5'b10000,
+      s1=5'b00100,
+      s2=5'b01000,
+      s3=5'b00001,
+      s4=5'b00011; 
+always@(posedge clk or negedge rst)
+begin
+   if(!rst) state<=s0;
+   else state<=n_state;
+         z<=state;
+end
+
+always@(state or a)
+begin
+case(state)
+s0:begin if(a==2'b01) n_state<=s1;
+   else begin  if(a==2'b10) n_state<=s2;
+	else  n_state<=s0; end end
+s1:begin if(a==2'b01) n_state<=s2;
+   else begin if(a==2'b10) n_state<=s3;
+	else  n_state<=s1; end end
+s2:begin if(a==2'b01) n_state<=s3;
+   else begin if(a==2'b10) n_state<=s4;
+	else  n_state<=s2; end end
+s3:n_state<=s0;
+s4:n_state<=s0;
+default:n_state<=s0;
+endcase
+end
+endmodule

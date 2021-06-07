@@ -1,0 +1,14 @@
+|SailShop
+clk => current_state~1.DATAIN
+rst => current_state~3.DATAIN
+a[0] => Equal0.IN0
+a[0] => Equal1.IN1
+a[1] => Equal0.IN1
+a[1] => Equal1.IN0
+z[0] <= z.DB_MAX_OUTPUT_PORT_TYPE
+z[1] <= z[1].DB_MAX_OUTPUT_PORT_TYPE
+z[2] <= z[2].DB_MAX_OUTPUT_PORT_TYPE
+z[3] <= z[3].DB_MAX_OUTPUT_PORT_TYPE
+z[4] <= z[4].DB_MAX_OUTPUT_PORT_TYPE
+
+
