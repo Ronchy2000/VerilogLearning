@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Mon Jun 07 17:38:24 2021
+Quartus Prime Version : 19.1.0 Build 670 09/22/2019 SJ Lite Edition
+Revision Name : DAC
+Top-level Entity Name : genDAC
+Family : Cyclone IV E
+Total logic elements : 6
+    Total combinational functions : 6
+    Dedicated logic registers : 6
+Total registers : 6
+Total pins : 11
+Total virtual pins : 0
+Total memory bits : 512
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

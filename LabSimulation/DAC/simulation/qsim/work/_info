@@ -1,0 +1,119 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dH:/EDATools/MyWorkShop/LabSimulation/DAC/simulation/qsim
+vDAC
+Z1 !s110 1623058182
+!i10b 1
+!s100 BK8o[<l;`Vc=<M4YMJ3SJ2
+ITUJ]UjLBa:4:Zl0AJ4U?>2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1623058181
+Z4 8DAC.vo
+Z5 FDAC.vo
+Z6 L0 32
+Z7 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z8 !s108 1623058182.000000
+Z9 !s107 DAC.vo|
+Z10 !s90 -work|work|DAC.vo|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+n@d@a@c
+vDAC_vlg_vec_tst
+R1
+!i10b 1
+!s100 =baPD=od5lP[>cb@VR3=i1
+IlUfeiSgbeL_P:l?gE]RcU2
+R2
+R0
+w1623058180
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+Z13 L0 30
+R7
+r1
+!s85 0
+31
+R8
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R11
+R12
+n@d@a@c_vlg_vec_tst
+vgenDAC
+Z14 !s110 1623056859
+!i10b 1
+!s100 bKhz3han_UC?lWP6g4Q3h0
+I4I7K2hK8aiCR2hdWi;;4;0
+R2
+R0
+w1623056858
+R4
+R5
+R6
+R7
+r1
+!s85 0
+31
+Z15 !s108 1623056859.000000
+R9
+R10
+!i113 1
+R11
+R12
+ngen@d@a@c
+vgenDAC_vlg_vec_tst
+R14
+!i10b 1
+!s100 OL3eeV@>P^@keYOOG[PNd1
+IhACcf<o@hZDBdEOgzX[iQ2
+R2
+R0
+w1623056857
+8genDAC.vwf.vt
+FgenDAC.vwf.vt
+R13
+R7
+r1
+!s85 0
+31
+R15
+!s107 genDAC.vwf.vt|
+!s90 -work|work|genDAC.vwf.vt|
+!i113 1
+R11
+R12
+ngen@d@a@c_vlg_vec_tst
+vhard_block
+R1
+!i10b 1
+!s100 L^jSdJ5;:jNEHGlCPFCjz0
+ILQ1iJMg2VUE4mLe9;[V@H3
+R2
+R0
+R3
+R4
+R5
+L0 558
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
