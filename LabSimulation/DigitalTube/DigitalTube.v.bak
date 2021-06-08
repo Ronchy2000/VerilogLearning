@@ -1,0 +1,46 @@
+module DigitalTube (
+    ports
+);
+    input clk;
+    input[31:0] datain;
+    output reg[7:0] seg;
+    output reg[7:0] w_sel;
+    reg[2:0] cnt;
+    reg[3:0] data;
+always @(cnt) begin
+    case(cnt)
+        3'b000:begin w_sel<=8'b00000001;data<=datain[3:0];end
+        3'b001:begin w_sel<=8'b00000011;data<=datain[7:4];end
+        3'b010:begin w_sel<=8'b00000101;data<=datain[11:8];end
+        3'b011:begin w_sel<=8'b00001001;data<=datain[15:12];end
+        3'b100:begin w_sel<=8'b00010001;data<=datain[19:16];end
+        3'b101:begin w_sel<=8'b00100001;data<=datain[23:20];end
+        3'b110:begin w_sel<=8'b01000001;data<=datain[27:24];end
+        3'b111:begin w_sel<=8'b10000001;data<=datain[31:28];end
+    endcase
+end
+always @(posedge clk) begin
+    cnt <= cnt+1;
+end
+always@(data)
+begin
+    case(data)
+    4'b0000:seg<=8'b11000000;
+    4'b0001:seg<=8'b11111001;
+    4'b0010:seg<=8'b10100100;
+    4'b0011:seg<=8'b10110000;
+    4'b0100:seg<=8'b10011001;
+    4'b0101:seg<=8'b10010010;
+    4'b0110:seg<=8'b11000000;
+    4'b0111:seg<=8'b11111000;
+    4'b1000:seg<=8'b10000000;
+    4'b1001:seg<=8'b10010000;
+    4'b1010:seg<=8'b10001000;
+    4'b1011:seg<=8'b10000011;
+    4'b1100:seg<=8'b11000110;
+    4'b1101:seg<=8'b10100001;
+    4'b1110:seg<=8'b10000110;
+    4'b1111:seg<=8'b10001110;
+    endcase
+end
+endmodule

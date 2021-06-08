@@ -1,0 +1,73 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dH:/EDATools/MyWorkShop/LabSimulation/counter_60/simulation/qsim
+vcounter_60
+Z1 !s110 1620640577
+!i10b 1
+!s100 <=ggb:GAc77ihVh6JoE<02
+I[NoUjG9`LXcEMMcg[JYTL1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1620640576
+Z4 8counter_60.vo
+Z5 Fcounter_60.vo
+L0 32
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1620640577.000000
+Z8 !s107 counter_60.vo|
+Z9 !s90 -work|work|counter_60.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vcounter_60_vlg_vec_tst
+R1
+!i10b 1
+!s100 RJ65So=z2`l_gGoI?_iCe3
+I]lAMzRbW1@6@MIO3JCVi12
+R2
+R0
+w1620640575
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 30
+R6
+r1
+!s85 0
+31
+R7
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R10
+R11
+vhard_block
+R1
+!i10b 1
+!s100 zLCa6jmzY@?>@WJ1M64HV3
+I9J=Y7lV?944<XScM:4Tk?0
+R2
+R0
+R3
+R4
+R5
+L0 883
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11

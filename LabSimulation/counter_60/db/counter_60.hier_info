@@ -1,0 +1,36 @@
+|counter_60
+CLK => temp[0].CLK
+CLK => temp[1].CLK
+CLK => temp[2].CLK
+CLK => temp[3].CLK
+CLK => temp[4].CLK
+CLK => temp[5].CLK
+CLK => temp[6].CLK
+CLK => temp[7].CLK
+CLR => temp[0].ACLR
+CLR => temp[1].ACLR
+CLR => temp[2].ACLR
+CLR => temp[3].ACLR
+CLR => temp[4].ACLR
+CLR => temp[5].ACLR
+CLR => temp[6].ACLR
+CLR => temp[7].ACLR
+EN => temp.OUTPUTSELECT
+EN => temp.OUTPUTSELECT
+EN => temp.OUTPUTSELECT
+EN => temp.OUTPUTSELECT
+EN => temp.OUTPUTSELECT
+EN => temp.OUTPUTSELECT
+EN => temp.OUTPUTSELECT
+EN => temp.OUTPUTSELECT
+DOUT[0] <= temp[0].DB_MAX_OUTPUT_PORT_TYPE
+DOUT[1] <= temp[1].DB_MAX_OUTPUT_PORT_TYPE
+DOUT[2] <= temp[2].DB_MAX_OUTPUT_PORT_TYPE
+DOUT[3] <= temp[3].DB_MAX_OUTPUT_PORT_TYPE
+DOUT[4] <= temp[4].DB_MAX_OUTPUT_PORT_TYPE
+DOUT[5] <= temp[5].DB_MAX_OUTPUT_PORT_TYPE
+DOUT[6] <= temp[6].DB_MAX_OUTPUT_PORT_TYPE
+DOUT[7] <= temp[7].DB_MAX_OUTPUT_PORT_TYPE
+COUT <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+
+

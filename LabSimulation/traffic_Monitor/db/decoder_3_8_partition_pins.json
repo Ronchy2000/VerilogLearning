@@ -1,0 +1,29 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "L",
+					"strict" : false
+				},
+				{
+					"name" : "AIN",
+					"strict" : false
+				},
+				{
+					"name" : "BIN",
+					"strict" : false
+				},
+				{
+					"name" : "CIN",
+					"strict" : false
+				},
+				{
+					"name" : "EN",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

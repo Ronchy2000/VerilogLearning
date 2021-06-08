@@ -1,0 +1,11 @@
+module audio(
+	CLK,L
+);
+	input CLK;
+	output L;
+	reg LT;
+	always@(posedge CLK)
+	begin
+		L = LT;
+	end
+endmodule

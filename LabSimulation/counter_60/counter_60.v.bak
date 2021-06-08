@@ -1,0 +1,25 @@
+module counter_60 (
+    CLK,CLR,EN,DOUT
+);
+    input CLK,CLR,EN;
+    output[7:0] DOUT;
+    output COUT;
+    reg[7:0] DOUT;
+
+    reg[7:0] temp = 0;
+    always @(posedge CLK or negedge CLR) begin
+        if(!CLR) Q = 0;
+        else if(EN)
+        begin
+            if(temp < 8'b00111100)
+                temp = temp+1;
+            else temp = 0;
+        end
+    end
+    always @(temp) begin
+        if(temp == 8'b00111100) 
+            COUT = 1'b1;
+            else COUT=1'b0;
+    end
+    assign DOUT = temp;
+endmodule
